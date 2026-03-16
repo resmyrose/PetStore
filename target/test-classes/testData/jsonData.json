@@ -1,0 +1,196 @@
+{
+	"AddNewPetTests": [
+		{
+			"testCaseId": "NPT_001",
+			"scenario": "Add new pet to the store with valid data",
+			"module": "pet",
+			"method": "POST",
+			"endpoints": "/pet",
+			"expectedStatusCode": 200,
+			"expectedStatusLineMsg": "OK",
+			"typeOfTesting": "Positive",
+			"loginInputdata": {
+				"id": 1,
+				"catecory": {
+					"id": 1,
+					"name": "Dog"
+				},
+				"name": "Golden Retriever",
+				"photoUrls": [
+					"https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+				],
+				"tags": [
+					{
+						"id": 1,
+						"name": "puppy"
+					}
+				],
+				"status": "available"
+			}
+		},
+		{
+			"testCaseId": "LT_002",
+			"scenario": "Check user able to login as admin with invalid credential",
+			"module": "Login",
+			"method": "POST",
+			"endpoints": "/login",
+			"expectedStatusCode": 401,
+			"expectedStatusLineMsg": "Unauthorized",
+			"typeOfTesting": "Positive",
+			"loginInputdata": {}
+		},
+		{
+			"testCaseId": "LT_003",
+			"scenario": "Check user able to login as admin with valid credential and invalid method",
+			"module": "Login",
+			"method": "GET",
+			"endpoints": "/login",
+			"expectedStatusCode": 405,
+			"expectedStatusLineMsg": "Method Not Allowed",
+			"typeOfTesting": "Positive",
+			"loginInputdata": {}
+		},
+		{
+			"testCaseId": "LT_004",
+			"scenario": " Check user able to login as admin with valid credential and invalid endpoint",
+			"module": "Login",
+			"method": "POST",
+			"endpoints": "/log",
+			"expectedStatusCode": 401,
+			"expectedStatusLineMsg": "Unauthorized",
+			"typeOfTesting": "Negative",
+			"loginInputdata": {}
+		},
+		{
+			"testCaseId": "LT_005",
+			"scenario": "Check user able to login as admin with valid credential and invalid content type",
+			"module": "Login",
+			"method": "POST",
+			"endpoints": "/login",
+			"expectedStatusCode": 415,
+			"expectedStatusLineMsg": "Unsupported Media Type",
+			"typeOfTesting": "Negative",
+			"loginInputdata": {
+				"password": "test",
+				"userLoginEmail": "Team601@gmail.com"
+			}
+		}
+	],
+	"UpdatePetTests": [
+		{
+			"testCaseId": "LOT_001",
+			"scenario": "Check admin able to logout ",
+			"module": "Logout",
+			"method": "GET",
+			"endpoints": "/logoutdietician",
+			"expectedStatusCode": 401,
+			"expectedStatusLineMsg": "Unauthorized",
+			"typeOfTesting": "Positive",
+			"inputData": {
+				"id": 1,
+				"catecory": {
+					"id": 1,
+					"name": "Dog"
+				},
+				"name": "Golden Retriever",
+				"photoUrls": [
+					"https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+				],
+				"tags": [
+					{
+						"id": 1,
+						"name": "puppy"
+					}
+				],
+				"status": "available"
+			}
+		}
+		
+	],
+	
+	"GetPetByIdTests": [
+		{
+			"testCaseId": "GetById_DT_001",
+			"scenario": "Check admin able to retrieve dietician by ID",
+			"module": "GetDieticianbyID",
+			"method": "GET",
+			"endpoints": "/dietician/{dieticianId}",
+			"expectedStatusCode": 200,
+			"expectedStatusLineMsg": "OK",
+			"typeOfTesting": "Positive"
+		},
+		{
+			"testCaseId": "GetById_DT_002",
+			"scenario": "Check admin able to retrieve dietician by id with invalid method",
+			"module": "GetDieticianbyID",
+			"method": "POST",
+			"endpoints": "/dietician/{dieticianId}",
+			"expectedStatusCode": 405,
+			"expectedStatusLineMsg": "Method Not Allowed",
+			"typeOfTesting": "Negative"
+		},
+		{
+			"testCaseId": "GetById_DT_003",
+			"scenario": "Check admin able to retrieve dietician by invalid id",
+			"module": "GetDieticianbyID",
+			"method": "GET",
+			"endpoints": "/dietician/0000",
+			"expectedStatusCode": 404,
+			"expectedStatusLineMsg": "Not Found",
+			"typeOfTesting": "Negative"
+		},
+		{
+			"testCaseId": "GetById_DT_004",
+			"scenario": "Check admin able to retrieve dietician by id with invalid endpoint",
+			"module": "GetDieticianbyID",
+			"method": "GET",
+			"endpoints": "/dietic",
+			"expectedStatusCode": 404,
+			"expectedStatusLineMsg": "Not Found",
+			"typeOfTesting": "Negative"
+		}
+	],
+	
+	"deletePetByIdTests": [
+		{
+			"testCaseId": "Delete_DT_001",
+			"scenario": "Check admin able to delete dietician by ID ",
+			"module": "DeleteDieticianbyID",
+			"method": "DELETE",
+			"endpoints": "/dietician/{dieticianId}",
+			"expectedStatusCode": 200,
+			"expectedStatusLineMsg": "OK",
+			"typeOfTesting": "Positive"
+		},
+		{
+			"testCaseId": "Delete_DT_002",
+			"scenario": "Check admin able to delete dietician by id with invalid method ",
+			"module": "DeleteDieticianbyID",
+			"method": "POST",
+			"endpoints": "/dietician/{dieticianId}",
+			"expectedStatusCode": 405,
+			"expectedStatusLineMsg": "Method Not Allowed",
+			"typeOfTesting": "Negative"
+		},
+		{
+			"testCaseId": "Delete_DT_003",
+			"scenario": "Check admin able to delete dietician by invalid id",
+			"module": "DeleteDieticianbyID",
+			"method": "DELETE",
+			"endpoints": "/dietician/-11",
+			"expectedStatusCode": 404,
+			"expectedStatusLineMsg": "Not Found",
+			"typeOfTesting": "Negative"
+		},
+		{
+			"testCaseId": "Delete_DT_004",
+			"scenario": "Check admin able to delete dietician by id with invalid endpoint",
+			"module": "DeleteDieticianbyID",
+			"method": "DELETE",
+			"endpoints": "/dieticiNUTR",
+			"expectedStatusCode": 404,
+			"expectedStatusLineMsg": "Not Found",
+			"typeOfTesting": "Negative"
+		}
+	]
+}
