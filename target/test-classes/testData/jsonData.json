@@ -192,5 +192,168 @@
 			"expectedStatusLineMsg": "Not Found",
 			"typeOfTesting": "Negative"
 		}
-	]
+	],
+	"PlaceOrderForPets": [
+	    {
+	      "testCaseId": "POFP_001",
+	      "scenario": "Place order for Pets with valid data",
+	      "module": "store",
+	      "method": "POST",
+	      "endpoints": "/store/order",
+	      "expectedStatusCode": 200,
+	      "expectedStatusLineMsg": "OK",
+	      "typeOfTesting": "Positive",
+	      "loginInputdata": {
+	        "id": 0,
+	        "petId": 0,
+	        "quantity": 0,
+	        "shipDate": "2026-03-09T18:48:52.473Z",
+	        "status": "placed",
+	        "complete": true
+	      }
+	    },
+	    {
+	      "testCaseId": "POFP_002",
+	      "scenario": "Place Order for Pets with invalid data",
+	      "module": "store",
+	      "method": "POST",
+	      "endpoints": "/store/order",
+	      "expectedStatusCode": 400,
+	      "expectedStatusLineMsg": "Invalid Order",
+	      "typeOfTesting": "Negative",
+	      "loginInputdata": {
+	        "id": 0,
+	        "petId": 0,
+	        "quantity": 0,
+	        "shipDate": "2026-03-09T18:48:52.473Z",
+	        "status": "placed",
+	        "complete": true
+	      }
+	    },
+	    {
+	      "testCaseId": "POFP_003",
+	      "scenario": "Returns Pet Inventories by Status",
+	      "module": "store",
+	      "method": "GET",
+	      "endpoints": "/store/inventory",
+	      "expectedStatusCode": 200,
+	      "expectedStatusLineMsg": "Successful operation",
+	      "typeOfTesting": "Positive",
+	      "loginInputdata": {
+	        "additionalProp1": 0,
+	        "additionalProp2": 0,
+	        "additionalProp3": 0
+	      }
+	    },
+	     {
+	      "testCaseId": "POFP_004",
+	      "scenario": "Returns Pet Inventories by ID",
+	      "module": "store",
+	      "method": "GET",
+	      "endpoints": "/store/inventory",
+	      "expectedStatusCode": 200,
+	      "expectedStatusLineMsg": "Successful operation",
+	      "typeOfTesting": "Positive",
+	      "loginInputdata": {
+	       "id": 0,
+	       "petId": 0,
+	       "quantity": 0,
+	       "shipDate": "2026-03-09T18:56:52.648Z",
+	       "status": "placed",
+	       "complete": true
+	      }
+	    },
+	     {
+	      "testCaseId": "POFP_005",
+	      "scenario": "Returns Pet Inventories by Status",
+	      "module": "store",
+	      "method": "GET",
+	      "endpoints": "/store/inventory",
+	      "expectedStatusCode": 400,
+	      "expectedStatusLineMsg": "Invalid ID Supplied",
+	      "typeOfTesting": "Negative",
+	      "loginInputdata": {
+	      "id": 0,
+	       "petId": 0,
+	       "quantity": 0,
+	       "shipDate": "2026-03-09T18:56:52.648Z",
+	       "status": "placed",
+	       "complete": true
+	      }
+	    },
+	    
+	    {
+	      "testCaseId": "POFP_006",
+	      "scenario": "Returns Pet Inventories by Status",
+	      "module": "store",
+	      "method": "GET",
+	      "endpoints": "/store/inventory",
+	      "expectedStatusCode": 404,
+	      "expectedStatusLineMsg": "Order Not Found",
+	      "typeOfTesting": "Negative",
+	      "loginInputdata": {
+	      "id": 0,
+	       "petId": 0,
+	       "quantity": 0,
+	       "shipDate": "2026-03-09T18:56:52.648Z",
+	       "status": "placed",
+	       "complete": true
+	      }
+	    },
+	     {
+	      "testCaseId": "POFP_007",
+	      "scenario": "Delete Purchase Order By Id",
+	      "module": "store",
+	      "method": "DELETE",
+	      "endpoints": "/store/order/{orderId}",
+	      "expectedStatusCode": 200,
+	      "expectedStatusLineMsg": "Successful Operation",
+	      "typeOfTesting": "Positive",
+	      "loginInputdata": {
+	      "id": 0,
+	       "petId": 0,
+	       "quantity": 0,
+	       "shipDate": "2026-03-09T18:56:52.648Z",
+	       "status": "placed",
+	       "complete": true
+	      }
+	    },
+	    {
+	      "testCaseId": "POFP_008",
+	      "scenario": "Delete Purchase Order By Id",
+	      "module": "store",
+	      "method": "DELETE",
+	      "endpoints": "/store/order/{orderId}",
+	      "expectedStatusCode": 400,
+	      "expectedStatusLineMsg": "Invalid ID Supplied",
+	      "typeOfTesting": "Negative",
+	      "loginInputdata": {
+	      "id": 0,
+	       "petId": 0,
+	       "quantity": 0,
+	       "shipDate": "2026-03-09T18:56:52.648Z",
+	       "status": "placed",
+	       "complete": true
+	      }
+	    },
+	     {
+	      "testCaseId": "POFP_009",
+	      "scenario": "Delete Purchase Order By Id",
+	      "module": "store",
+	      "method": "DELETE",
+	      "endpoints": "/store/order/{orderId}",
+	      "expectedStatusCode": 404,
+	      "expectedStatusLineMsg": "Order Not Found",
+	      "typeOfTesting": "Negative",
+	      "loginInputdata": {
+	      "id": 0,
+	       "petId": 0,
+	       "quantity": 0,
+	       "shipDate": "2026-03-09T18:56:52.648Z",
+	       "status": "placed",
+	       "complete": true
+	      }
+	      
+	      }
+	      ]
 }
