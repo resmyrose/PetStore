@@ -26,7 +26,7 @@ public class Hooks {
     public static String dieticianEmail;
 
 
-    @BeforeAll(order = 0)
+    @BeforeAll()
     public static void setup() {
         // Load base URL from config
         baseUrl = configReader.getProperty("baseURL");
