@@ -1,25 +1,19 @@
 package utilities;
 
 import java.io.File;
-import java.io.IOException;
-import java.util.List;
-
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
-import java.util.Map;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import testDataWrapper.TestCaseData;
 import testDataWrapper.TestCasesWrapper;
-import hooks.Hooks;
-import testDataWrapper.*;
 
 public class JSONDataReader {
 
@@ -33,17 +27,24 @@ public class JSONDataReader {
 	        }
 	    }
 
-//	    public static TestCaseData getTestCaseById(List<TestCaseData> testCases, String testCaseId) {
-//	        return testCases.stream()
-//	                .filter(data -> testCaseId.equals(data.getTestCaseId()))
-//	                .findFirst()
-//	                .orElseThrow(() -> new RuntimeException("Test case not found: " + testCaseId));
-//	    }
-//
-//	
+	    public static TestCaseData getTestCaseById(List<TestCaseData> testCases, String testCaseId) {
+	        return testCases.stream()
+	                .filter(data -> testCaseId.equals(data.getTestCaseId()))
+	                .findFirst()
+	                .orElseThrow(() -> new RuntimeException("Test case not found: " + testCaseId));
+	    }
+
+	    public static TestCaseData getTestCaseByScenario(List<TestCaseData> testCases, String scenario) {
+	    	System.out.println("Reading the scenario:" + scenario);
+	        return testCases.stream()
+	                .filter(data -> scenario.equals(data.getScenario()))
+	                .findFirst()
+	                .orElseThrow(() -> new RuntimeException("Test scenario not found: " + scenario));
+	    }
+
 
     public JSONObject readJsondata(String filepath, String data, int Index) throws IOException, ParseException {
-			
+
 			JSONParser jsonparser = new JSONParser();
 			FileReader  reader = new FileReader(filepath);
 			Object obj = jsonparser.parse(reader);
@@ -51,9 +52,9 @@ public class JSONDataReader {
 			JSONArray array = (JSONArray) jsondata.get(data);
 			JSONObject jsonelement = (JSONObject)array.get(Index);
 			return jsonelement;
-			
+
 		}
-	   
+
 	   public  JSONObject createRequestBodyFromJson(JSONObject jsonData, List<String> keys) {
 		    JSONObject requestBody = new JSONObject();
 		    for (String key : keys) {
@@ -61,11 +62,11 @@ public class JSONDataReader {
 		    }
 		    return requestBody;
 		}
-	   
+
 	   public  String getStringField(JSONObject jsonObject, String key) {
 	        return (String) jsonObject.get(key);
 	    }
-		
+
 
 	  }
 
