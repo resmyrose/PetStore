@@ -1,17 +1,8 @@
 package utilities;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
-import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import pojo.*;
-import testDataWrapper.TestCaseData;
 import testDataWrapper.TestCasesWrapper;
-import hooks.Hooks;
-
-import static io.restassured.RestAssured.*;
 
 
 public class CRUDHelper {
@@ -69,5 +60,5 @@ public class CRUDHelper {
 //
 //    }
 
-     
+
 }

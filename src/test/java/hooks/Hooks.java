@@ -1,15 +1,16 @@
 package hooks;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import io.cucumber.java.Before;
 import io.cucumber.java.BeforeAll;
 import io.restassured.specification.RequestSpecification;
 import testDataWrapper.TestCaseData;
 import testDataWrapper.TestCasesWrapper;
-import io.cucumber.java.After;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import utilities.configReader;
 import utilities.JSONDataReader;
 import utilities.LoggerLoad;
+import utilities.configReader;
 
 public class Hooks {
 
@@ -21,15 +22,17 @@ public class Hooks {
     public static String token;
     public static RequestSpecification request;
     public static String dieticianId;       //<-- save id and loginpassword
-    public static String dieticianLoginPwd; 
+    public static String dieticianLoginPwd;
     public static String dieticianEmail;
 
 
     @BeforeAll(order = 0)
-    public void setup() {
+    public static void setup() {
         // Load base URL from config
         baseUrl = configReader.getProperty("baseURL");
         LoggerLoad.info("Base URL loaded: " + baseUrl);
+
+        System.out.println("In Hooks class.........");
 
         // Load all test data from JSON
         allTestData = JSONDataReader.readAllModules("src/test/resources/testData/jsonData.json");
@@ -37,10 +40,10 @@ public class Hooks {
         LoggerLoad.info("All test data loaded");
     }
 
-    @After
+//    @After
     public void tearDown() {
         logger.info("Cleaning up after scenario...");
-        // Add cleanup steps if needed 
+        // Add cleanup steps if needed
     }
 }
 

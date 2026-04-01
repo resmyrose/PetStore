@@ -5,14 +5,14 @@
 			"scenario": "Add new pet to the store with valid data",
 			"module": "pet",
 			"method": "POST",
-			"endpoints": "/pet",
+			"endpoints": "pet/addPet",
 			"expectedStatusCode": 200,
 			"expectedStatusLineMsg": "OK",
 			"typeOfTesting": "Positive",
-			"loginInputdata": {
-				"id": 1,
-				"catecory": {
-					"id": 1,
+			"newPetInputData": {
+				"id": 336,
+				"category": {
+					"id": 330,
 					"name": "Dog"
 				},
 				"name": "Golden Retriever",
@@ -21,15 +21,46 @@
 				],
 				"tags": [
 					{
-						"id": 1,
-						"name": "puppy"
+						"id": 3,
+						"name": "Mochi3"
 					}
 				],
 				"status": "available"
 			}
 		},
 		{
-			"testCaseId": "LT_002",
+					"testCaseId": "NPT_002",
+					"scenario": "Add new pet to the store with valid data2",
+					"module": "pet",
+					"method": "POST",
+					"endpoints": "pet/addPet",
+					"expectedStatusCode": 200,
+					"expectedStatusLineMsg": "OK",
+					"typeOfTesting": "Positive",
+					"newPetInputData": {
+						"id": 337,
+						"category": {
+							"id": 330,
+							"name": "Dog"
+						},
+						"name": "Golden Retriever",
+						"photoUrls": [
+							"https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+						],
+						"tags": [
+							{
+								"id": 4,
+								"name": "Cocao"
+							}
+						],
+						"status": "available"
+					}
+				}
+	]
+}
+		/*,
+		{
+			"testCaseId": "NPT_002",
 			"scenario": "Check user able to login as admin with invalid credential",
 			"module": "Login",
 			"method": "POST",
@@ -40,7 +71,7 @@
 			"loginInputdata": {}
 		},
 		{
-			"testCaseId": "LT_003",
+			"testCaseId": "NPT_003",
 			"scenario": "Check user able to login as admin with valid credential and invalid method",
 			"module": "Login",
 			"method": "GET",
@@ -51,7 +82,7 @@
 			"loginInputdata": {}
 		},
 		{
-			"testCaseId": "LT_004",
+			"testCaseId": "NPT_004",
 			"scenario": " Check user able to login as admin with valid credential and invalid endpoint",
 			"module": "Login",
 			"method": "POST",
@@ -62,7 +93,7 @@
 			"loginInputdata": {}
 		},
 		{
-			"testCaseId": "LT_005",
+			"testCaseId": "NPT_005",
 			"scenario": "Check user able to login as admin with valid credential and invalid content type",
 			"module": "Login",
 			"method": "POST",
@@ -74,8 +105,9 @@
 				"password": "test",
 				"userLoginEmail": "Team601@gmail.com"
 			}
-		}
-	],
+		}*/
+	//]
+	/*
 	"UpdatePetTests": [
 		{
 			"testCaseId": "LOT_001",
@@ -356,4 +388,6 @@
 	      
 	      }
 	      ]
-}
+		  
+		  */
+//}
