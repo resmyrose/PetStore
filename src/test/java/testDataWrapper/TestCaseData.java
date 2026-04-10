@@ -1,6 +1,7 @@
 package testDataWrapper;
 
 import pojo.AddNewPet;
+import pojo.PlaceOrderPet;
 
 public class TestCaseData {
 	private String testCaseId;
@@ -13,12 +14,21 @@ public class TestCaseData {
 	private String typeOfTesting;
 
 	private AddNewPet newPetInputdata;
+	private PlaceOrderPet placeOrderInputdata;
+	
 
 	public AddNewPet getNewPetInputData() {
 		return newPetInputdata;
 	}
 	public void setNewPetInputData(AddNewPet newPetInputData) {
 		this.newPetInputdata = newPetInputData;
+	}
+	
+	public PlaceOrderPet getPlaceOrderInputData() {
+		return placeOrderInputdata;
+	}
+	public void setPlaceOrderInputData(PlaceOrderPet placeOrderInputData) {
+		this.placeOrderInputdata= placeOrderInputData;
 	}
 	public String getTestCaseId() {
 		return testCaseId;
