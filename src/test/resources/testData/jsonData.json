@@ -93,10 +93,26 @@
 					        "status": "placed",
 					        "complete": true
 					      }
-					    }
-						]
+					    },
 						
-
+						{
+							      "testCaseId": "OPT_003",
+							      "scenario": "Returns Pet Inventories by Status",
+							      "module": "store",
+							      "method": "GET",
+							      "endpoints": "/store/inventory",
+							      "expectedStatusCode": 200,
+							      "expectedStatusLineMsg": "Successful operation",
+							      "typeOfTesting": "Positive",
+							      "GetOrderInputdata": {
+							        "additionalProp1": 0,
+							        "additionalProp2": 0,
+							        "additionalProp3": 0
+					      }
+					       
+						}
+						]	    
+	
 	}
 	
 		

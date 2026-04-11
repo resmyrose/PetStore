@@ -7,9 +7,11 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class TestCasesWrapper {
 	
    @JsonProperty("AddNewPetTests")
-	private List<TestCaseData> AddNewPetTests;
-	 @JsonProperty("PlaceOrderPetTests")
+   private List<TestCaseData> AddNewPetTests;
+   @JsonProperty("PlaceOrderPetTests")
 	private List<TestCaseData> PlaceOrderPetTests;
+   @JsonProperty("PlaceOrderPetTests")
+	private List<TestCaseData> GetOrderPetTests;
 	
 
 	public List<TestCaseData> getAddNewPetTests() {
@@ -26,4 +28,14 @@ public class TestCasesWrapper {
 	public void setPlaceOrderPetTests(List<TestCaseData> placeOrderPetTests) {
 		this.PlaceOrderPetTests = placeOrderPetTests;
 	}
+
+	public List<TestCaseData> getGetOrderPetTests() {
+		return GetOrderPetTests;
+	}
+
+	public void setGetOrderPetTests(List<TestCaseData> getOrderPetTests) {
+		GetOrderPetTests = getOrderPetTests;
+	}
+	
+	
 }
