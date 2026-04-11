@@ -40,7 +40,7 @@
 					"newPetInputData": {
 						"id": 339,
 						"category": {
-							"id": 330,
+							"id": 331,
 							"name": "Dog"
 						},
 						"name": "Golden Retriever",
@@ -56,338 +56,47 @@
 						"status": "available"
 					}
 				}
-	]
-}
-		/*,
-		{
-			"testCaseId": "NPT_002",
-			"scenario": "Check user able to login as admin with invalid credential",
-			"module": "Login",
-			"method": "POST",
-			"endpoints": "/login",
-			"expectedStatusCode": 401,
-			"expectedStatusLineMsg": "Unauthorized",
-			"typeOfTesting": "Positive",
-			"loginInputdata": {}
-		},
-		{
-			"testCaseId": "NPT_003",
-			"scenario": "Check user able to login as admin with valid credential and invalid method",
-			"module": "Login",
-			"method": "GET",
-			"endpoints": "/login",
-			"expectedStatusCode": 405,
-			"expectedStatusLineMsg": "Method Not Allowed",
-			"typeOfTesting": "Positive",
-			"loginInputdata": {}
-		},
-		{
-			"testCaseId": "NPT_004",
-			"scenario": " Check user able to login as admin with valid credential and invalid endpoint",
-			"module": "Login",
-			"method": "POST",
-			"endpoints": "/log",
-			"expectedStatusCode": 401,
-			"expectedStatusLineMsg": "Unauthorized",
-			"typeOfTesting": "Negative",
-			"loginInputdata": {}
-		},
-		{
-			"testCaseId": "NPT_005",
-			"scenario": "Check user able to login as admin with valid credential and invalid content type",
-			"module": "Login",
-			"method": "POST",
-			"endpoints": "/login",
-			"expectedStatusCode": 415,
-			"expectedStatusLineMsg": "Unsupported Media Type",
-			"typeOfTesting": "Negative",
-			"loginInputdata": {
-				"password": "test",
-				"userLoginEmail": "Team601@gmail.com"
-			}
-		}*/
-	//]
-	/*
-	"UpdatePetTests": [
-		{
-			"testCaseId": "LOT_001",
-			"scenario": "Check admin able to logout ",
-			"module": "Logout",
-			"method": "GET",
-			"endpoints": "/logoutdietician",
-			"expectedStatusCode": 401,
-			"expectedStatusLineMsg": "Unauthorized",
-			"typeOfTesting": "Positive",
-			"inputData": {
-				"id": 1,
-				"catecory": {
-					"id": 1,
-					"name": "Dog"
-				},
-				"name": "Golden Retriever",
-				"photoUrls": [
-					"https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
 				],
-				"tags": [
-					{
-						"id": 1,
-						"name": "puppy"
-					}
-				],
-				"status": "available"
-			}
-		}
+				"PlaceOrderPetTests": [
+					    {
+					      "testCaseId": "OPT_001",
+					      "scenario": "Place Order for Pets with valid data",
+					      "module": "store",
+					      "method": "POST",
+					      "endpoints": "/store/order",
+					      "expectedStatusCode": 200,
+					      "expectedStatusLineMsg": "OK",
+					      "typeOfTesting": "Positive",
+					      "placeOrderInputData": {
+					        "id": 338,
+					        "petId": 330,
+					        "quantity": 1,
+					        "shipDate": "2026-03-09T18:48:52.473Z",
+					        "status": "placed",
+					        "complete": true
+					      }
+					    },
+					    {
+					      "testCaseId": "OPT_002",
+					      "scenario": "Place Order for Pets with valid data2",
+					      "module": "store",
+					      "method": "POST",
+					      "endpoints": "/store/order",
+					      "expectedStatusCode": 200,
+					      "expectedStatusLineMsg": "OK",
+					      "typeOfTesting": "Positive",
+					      "placeOrderInputData": {
+					        "id": 339,
+					        "petId": 330,
+					        "quantity": 1,
+					        "shipDate": "2026-03-09T18:48:52.473Z",
+					        "status": "placed",
+					        "complete": true
+					      }
+					    }
+						]
+						
+
+	}
+	
 		
-	],
-	
-	"GetPetByIdTests": [
-		{
-			"testCaseId": "GetById_DT_001",
-			"scenario": "Check admin able to retrieve dietician by ID",
-			"module": "GetDieticianbyID",
-			"method": "GET",
-			"endpoints": "/dietician/{dieticianId}",
-			"expectedStatusCode": 200,
-			"expectedStatusLineMsg": "OK",
-			"typeOfTesting": "Positive"
-		},
-		{
-			"testCaseId": "GetById_DT_002",
-			"scenario": "Check admin able to retrieve dietician by id with invalid method",
-			"module": "GetDieticianbyID",
-			"method": "POST",
-			"endpoints": "/dietician/{dieticianId}",
-			"expectedStatusCode": 405,
-			"expectedStatusLineMsg": "Method Not Allowed",
-			"typeOfTesting": "Negative"
-		},
-		{
-			"testCaseId": "GetById_DT_003",
-			"scenario": "Check admin able to retrieve dietician by invalid id",
-			"module": "GetDieticianbyID",
-			"method": "GET",
-			"endpoints": "/dietician/0000",
-			"expectedStatusCode": 404,
-			"expectedStatusLineMsg": "Not Found",
-			"typeOfTesting": "Negative"
-		},
-		{
-			"testCaseId": "GetById_DT_004",
-			"scenario": "Check admin able to retrieve dietician by id with invalid endpoint",
-			"module": "GetDieticianbyID",
-			"method": "GET",
-			"endpoints": "/dietic",
-			"expectedStatusCode": 404,
-			"expectedStatusLineMsg": "Not Found",
-			"typeOfTesting": "Negative"
-		}
-	],
-	
-	"deletePetByIdTests": [
-		{
-			"testCaseId": "Delete_DT_001",
-			"scenario": "Check admin able to delete dietician by ID ",
-			"module": "DeleteDieticianbyID",
-			"method": "DELETE",
-			"endpoints": "/dietician/{dieticianId}",
-			"expectedStatusCode": 200,
-			"expectedStatusLineMsg": "OK",
-			"typeOfTesting": "Positive"
-		},
-		{
-			"testCaseId": "Delete_DT_002",
-			"scenario": "Check admin able to delete dietician by id with invalid method ",
-			"module": "DeleteDieticianbyID",
-			"method": "POST",
-			"endpoints": "/dietician/{dieticianId}",
-			"expectedStatusCode": 405,
-			"expectedStatusLineMsg": "Method Not Allowed",
-			"typeOfTesting": "Negative"
-		},
-		{
-			"testCaseId": "Delete_DT_003",
-			"scenario": "Check admin able to delete dietician by invalid id",
-			"module": "DeleteDieticianbyID",
-			"method": "DELETE",
-			"endpoints": "/dietician/-11",
-			"expectedStatusCode": 404,
-			"expectedStatusLineMsg": "Not Found",
-			"typeOfTesting": "Negative"
-		},
-		{
-			"testCaseId": "Delete_DT_004",
-			"scenario": "Check admin able to delete dietician by id with invalid endpoint",
-			"module": "DeleteDieticianbyID",
-			"method": "DELETE",
-			"endpoints": "/dieticiNUTR",
-			"expectedStatusCode": 404,
-			"expectedStatusLineMsg": "Not Found",
-			"typeOfTesting": "Negative"
-		}
-	],
-	"PlaceOrderForPets": [
-	    {
-	      "testCaseId": "POFP_001",
-	      "scenario": "Place order for Pets with valid data",
-	      "module": "store",
-	      "method": "POST",
-	      "endpoints": "/store/order",
-	      "expectedStatusCode": 200,
-	      "expectedStatusLineMsg": "OK",
-	      "typeOfTesting": "Positive",
-	      "loginInputdata": {
-	        "id": 0,
-	        "petId": 0,
-	        "quantity": 0,
-	        "shipDate": "2026-03-09T18:48:52.473Z",
-	        "status": "placed",
-	        "complete": true
-	      }
-	    },
-	    {
-	      "testCaseId": "POFP_002",
-	      "scenario": "Place Order for Pets with invalid data",
-	      "module": "store",
-	      "method": "POST",
-	      "endpoints": "/store/order",
-	      "expectedStatusCode": 400,
-	      "expectedStatusLineMsg": "Invalid Order",
-	      "typeOfTesting": "Negative",
-	      "loginInputdata": {
-	        "id": 0,
-	        "petId": 0,
-	        "quantity": 0,
-	        "shipDate": "2026-03-09T18:48:52.473Z",
-	        "status": "placed",
-	        "complete": true
-	      }
-	    },
-	    {
-	      "testCaseId": "POFP_003",
-	      "scenario": "Returns Pet Inventories by Status",
-	      "module": "store",
-	      "method": "GET",
-	      "endpoints": "/store/inventory",
-	      "expectedStatusCode": 200,
-	      "expectedStatusLineMsg": "Successful operation",
-	      "typeOfTesting": "Positive",
-	      "loginInputdata": {
-	        "additionalProp1": 0,
-	        "additionalProp2": 0,
-	        "additionalProp3": 0
-	      }
-	    },
-	     {
-	      "testCaseId": "POFP_004",
-	      "scenario": "Returns Pet Inventories by ID",
-	      "module": "store",
-	      "method": "GET",
-	      "endpoints": "/store/inventory",
-	      "expectedStatusCode": 200,
-	      "expectedStatusLineMsg": "Successful operation",
-	      "typeOfTesting": "Positive",
-	      "loginInputdata": {
-	       "id": 0,
-	       "petId": 0,
-	       "quantity": 0,
-	       "shipDate": "2026-03-09T18:56:52.648Z",
-	       "status": "placed",
-	       "complete": true
-	      }
-	    },
-	     {
-	      "testCaseId": "POFP_005",
-	      "scenario": "Returns Pet Inventories by Status",
-	      "module": "store",
-	      "method": "GET",
-	      "endpoints": "/store/inventory",
-	      "expectedStatusCode": 400,
-	      "expectedStatusLineMsg": "Invalid ID Supplied",
-	      "typeOfTesting": "Negative",
-	      "loginInputdata": {
-	      "id": 0,
-	       "petId": 0,
-	       "quantity": 0,
-	       "shipDate": "2026-03-09T18:56:52.648Z",
-	       "status": "placed",
-	       "complete": true
-	      }
-	    },
-	    
-	    {
-	      "testCaseId": "POFP_006",
-	      "scenario": "Returns Pet Inventories by Status",
-	      "module": "store",
-	      "method": "GET",
-	      "endpoints": "/store/inventory",
-	      "expectedStatusCode": 404,
-	      "expectedStatusLineMsg": "Order Not Found",
-	      "typeOfTesting": "Negative",
-	      "loginInputdata": {
-	      "id": 0,
-	       "petId": 0,
-	       "quantity": 0,
-	       "shipDate": "2026-03-09T18:56:52.648Z",
-	       "status": "placed",
-	       "complete": true
-	      }
-	    },
-	     {
-	      "testCaseId": "POFP_007",
-	      "scenario": "Delete Purchase Order By Id",
-	      "module": "store",
-	      "method": "DELETE",
-	      "endpoints": "/store/order/{orderId}",
-	      "expectedStatusCode": 200,
-	      "expectedStatusLineMsg": "Successful Operation",
-	      "typeOfTesting": "Positive",
-	      "loginInputdata": {
-	      "id": 0,
-	       "petId": 0,
-	       "quantity": 0,
-	       "shipDate": "2026-03-09T18:56:52.648Z",
-	       "status": "placed",
-	       "complete": true
-	      }
-	    },
-	    {
-	      "testCaseId": "POFP_008",
-	      "scenario": "Delete Purchase Order By Id",
-	      "module": "store",
-	      "method": "DELETE",
-	      "endpoints": "/store/order/{orderId}",
-	      "expectedStatusCode": 400,
-	      "expectedStatusLineMsg": "Invalid ID Supplied",
-	      "typeOfTesting": "Negative",
-	      "loginInputdata": {
-	      "id": 0,
-	       "petId": 0,
-	       "quantity": 0,
-	       "shipDate": "2026-03-09T18:56:52.648Z",
-	       "status": "placed",
-	       "complete": true
-	      }
-	    },
-	     {
-	      "testCaseId": "POFP_009",
-	      "scenario": "Delete Purchase Order By Id",
-	      "module": "store",
-	      "method": "DELETE",
-	      "endpoints": "/store/order/{orderId}",
-	      "expectedStatusCode": 404,
-	      "expectedStatusLineMsg": "Order Not Found",
-	      "typeOfTesting": "Negative",
-	      "loginInputdata": {
-	      "id": 0,
-	       "petId": 0,
-	       "quantity": 0,
-	       "shipDate": "2026-03-09T18:56:52.648Z",
-	       "status": "placed",
-	       "complete": true
-	      }
-	      
-	      }
-	      ]
-		  
-		  */
-//}

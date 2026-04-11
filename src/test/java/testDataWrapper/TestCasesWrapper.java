@@ -6,8 +6,12 @@ import java.util.List;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class TestCasesWrapper {
-	 @JsonProperty("AddNewPetTests")
+	
+   @JsonProperty("AddNewPetTests")
 	private List<TestCaseData> AddNewPetTests;
+	 @JsonProperty("PlaceOrderPetTests")
+	private List<TestCaseData> PlaceOrderPetTests;
+	
 
 	public List<TestCaseData> getAddNewPetTests() {
 		//return AddNewPetTests;
@@ -21,5 +25,11 @@ public class TestCasesWrapper {
 		//Even if someone modifies the original addNewPetTests, your internal data dosen't change
 		this.AddNewPetTests = List.copyOf(AddNewPetTests);
 	}
+	public List<TestCaseData> getPlaceOrderPetTests() {
+		return PlaceOrderPetTests;
+	}
 
+	public void setPlaceOrderPetTests(List<TestCaseData> placeOrderPetTests) {
+		this.PlaceOrderPetTests = placeOrderPetTests;
+	}
 }
