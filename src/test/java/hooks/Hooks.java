@@ -18,13 +18,8 @@ public class Hooks {
 
     public static String baseUrl;
     public static TestCasesWrapper allTestData;
-    public static TestCaseData currentLoginTest;
-    public static String token;
     public static RequestSpecification request;
-    public static String dieticianId;       //<-- save id and loginpassword
-    public static String dieticianLoginPwd;
-    public static String dieticianEmail;
-
+  
 
     @BeforeAll()
     public static void setup() {
@@ -32,7 +27,7 @@ public class Hooks {
         baseUrl = configReader.getProperty("baseURL");
         LoggerLoad.info("Base URL loaded: " + baseUrl);
 
-        System.out.println("In Hooks class.........");
+       // System.out.println("In Hooks class.........");
 
         // Load all test data from JSON
         allTestData = JSONDataReader.readAllModules("src/test/resources/testData/jsonData.json");

@@ -170,3 +170,255 @@ Response Body: <html>
     <center>nginx</center>
   </body>
 </html>
+Base URL loaded: https://petstore.swagger.io/#/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@2ff15f8c
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@4b41587d
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Base URL loaded: https://petstore.swagger.io/#/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@7ea899a9
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@79957f11
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Base URL loaded: https://petstore.swagger.io/#/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@7ea899a9
+Request with body prepared.
+Endpoint: pet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@217235f5
+Request with body prepared.
+Endpoint: pet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@7ea899a9
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 33666667,
+    "category": {
+        "id": 330,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 3,
+            "name": "Mochi3"
+        }
+    ],
+    "status": "available"
+}
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@5e7abaf7
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 337,
+    "category": {
+        "id": 330,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 4,
+            "name": "Cocao"
+        }
+    ],
+    "status": "available"
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@2ff15f8c
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 33666667,
+    "category": {
+        "id": 330,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 3,
+            "name": "Mochi3"
+        }
+    ],
+    "status": "available"
+}
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@32256e68
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 337,
+    "category": {
+        "id": 330,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 4,
+            "name": "Cocao"
+        }
+    ],
+    "status": "available"
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@2ff15f8c
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "category": {
+        "id": 330,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 3,
+            "name": "Mochi3"
+        }
+    ],
+    "status": "available"
+}
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@5e7abaf7
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "category": {
+        "id": 330,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 4,
+            "name": "Cocao"
+        }
+    ],
+    "status": "available"
+}

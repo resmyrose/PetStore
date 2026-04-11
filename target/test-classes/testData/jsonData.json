@@ -5,12 +5,12 @@
 			"scenario": "Add new pet to the store with valid data",
 			"module": "pet",
 			"method": "POST",
-			"endpoints": "pet/addPet",
+			"endpoints": "pet",
 			"expectedStatusCode": 200,
 			"expectedStatusLineMsg": "OK",
 			"typeOfTesting": "Positive",
 			"newPetInputData": {
-				"id": 336,
+				"id": 338,
 				"category": {
 					"id": 330,
 					"name": "Dog"
@@ -33,12 +33,12 @@
 					"scenario": "Add new pet to the store with valid data2",
 					"module": "pet",
 					"method": "POST",
-					"endpoints": "pet/addPet",
+					"endpoints": "pet",
 					"expectedStatusCode": 200,
 					"expectedStatusLineMsg": "OK",
 					"typeOfTesting": "Positive",
 					"newPetInputData": {
-						"id": 337,
+						"id": 339,
 						"category": {
 							"id": 330,
 							"name": "Dog"
