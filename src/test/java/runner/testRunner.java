@@ -15,7 +15,7 @@ import io.cucumber.testng.CucumberOptions;
 	    },
 	    monochrome = false,
 	  //tags = "@dieticianvalidlogin",
-	    features = {"src\\test\\resources\\features\\pet"},
+	    features = {"src\\test\\resources\\features"},
 	    glue = {"stepDefinitions"}
 	)
 public class testRunner extends AbstractTestNGCucumberTests {
