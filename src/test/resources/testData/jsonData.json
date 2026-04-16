@@ -101,9 +101,9 @@
 							      "scenario": "Returns Pet Inventories by Status",
 							      "module": "store",
 							      "method": "GET",
-							      "endpoints": "store/inventory",
+							      "endpoints": "/store/inventory",
 							      "expectedStatusCode": 200,
-							      "expectedStatusLineMsg": "Successful operation",
+							      "expectedStatusLineMsg": "OK",
 							      "typeOfTesting": "Positive",
 								  "expectedResponseKeys": ["available", "pending", "sold"]
 					      }

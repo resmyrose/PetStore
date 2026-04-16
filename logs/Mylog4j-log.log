@@ -1448,3 +1448,80 @@ Base URL loaded: https://petstore.swagger.io/v2/
 All test data loaded
 Pet Test Case: Returns Pet Inventories by Status
 Endpoint: store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Status Code: 200
+Response Body: {
+    "sold": 22,
+    "INVALID_STATUS": 1,
+    "string": 392,
+    "d": 1,
+    "available, sold": 1,
+    "pending": 13,
+    "available": 518,
+    "peric": 9,
+    "avaible": 1
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Status Code: 200
+Response Body: {
+    "sold": 30,
+    "INVALID_STATUS": 1,
+    "string": 401,
+    "d": 1,
+    "available, sold": 1,
+    "pending": 14,
+    "available": 504,
+    "peric": 9,
+    "avaible": 1
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Status Code: 200
+Response Body: {
+    "sold": 29,
+    "INVALID_STATUS": 1,
+    "string": 405,
+    "d": 1,
+    "available, sold": 1,
+    "pending": 12,
+    "available": 510,
+    "peric": 9,
+    "avaible": 1
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Status Code: 200
+Response Body: {
+    "sold": 29,
+    "INVALID_STATUS": 1,
+    "string": 420,
+    "d": 1,
+    "available, sold": 1,
+    "pending": 14,
+    "available": 502,
+    "peric": 11,
+    "avaible": 1
+}

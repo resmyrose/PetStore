@@ -14,35 +14,16 @@ public class TestCaseData {
 	private String typeOfTesting;
 	private String[] expectedResponseKeys;
 
+	
 	private AddNewPet newPetInputdata;
 	private PlaceOrderPet placeOrderInputdata;
-	//private GetOrderPet getOrderPetInputdata;
-	
-	public void getExpectedResponseKeys(String[] expectedResponseKeys) {
-		this.expectedResponseKeys = expectedResponseKeys;
-	}
 	
 	
-	public void setExpectedResponseKeys(String[] expectedResponseKeys) {
-		this.expectedResponseKeys = expectedResponseKeys;
-	}
-	public AddNewPet getNewPetInputdata() {
-		return newPetInputdata;
-	}
-	public void setNewPetInputdata(AddNewPet newPetInputdata) {
-		this.newPetInputdata = newPetInputdata;
-	}
-	public PlaceOrderPet getPlaceOrderInputdata() {
-		return placeOrderInputdata;
-	}
-	public void setPlaceOrderInputdata(PlaceOrderPet placeOrderInputdata) {
-		this.placeOrderInputdata = placeOrderInputdata;
-	}
 	public AddNewPet getNewPetInputData() {
 		return newPetInputdata;
 	}
-	public void setNewPetInputData(AddNewPet newPetInputData) {
-		this.newPetInputdata = newPetInputData;
+	public void setNewPetInputData(AddNewPet newPetInputdata) {
+		this.newPetInputdata = newPetInputdata;
 	}
 	
 	public PlaceOrderPet getPlaceOrderInputData() {
@@ -99,6 +80,12 @@ public class TestCaseData {
 	}
 	public void setTypeOfTesting(String typeOfTesting) {
 		this.typeOfTesting = typeOfTesting;
+	}
+	public String[] getExpectedResponseKeys() {
+		return expectedResponseKeys;
+	}
+	public void setExpectedResponseKeys(String[] expectedResponseKeys) {
+		this.expectedResponseKeys = expectedResponseKeys;
 	}
 
 
