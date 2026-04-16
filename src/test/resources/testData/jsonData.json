@@ -5,12 +5,12 @@
 			"scenario": "Add new pet to the store with valid data",
 			"module": "pet",
 			"method": "POST",
-			"endpoints": "pet/addPet",
+			"endpoints": "pet",
 			"expectedStatusCode": 200,
 			"expectedStatusLineMsg": "OK",
 			"typeOfTesting": "Positive",
 			"newPetInputData": {
-				"id": 336,
+				"id": 338,
 				"category": {
 					"id": 330,
 					"name": "Dog"
@@ -33,12 +33,12 @@
 					"scenario": "Add new pet to the store with valid data2",
 					"module": "pet",
 					"method": "POST",
-					"endpoints": "pet/addPet",
+					"endpoints": "pet",
 					"expectedStatusCode": 200,
 					"expectedStatusLineMsg": "OK",
 					"typeOfTesting": "Positive",
 					"newPetInputData": {
-						"id": 337,
+						"id": 339,
 						"category": {
 							"id": 331,
 							"name": "Dog"
@@ -76,7 +76,7 @@
 					        "complete": true
 					      }
 					    },
-					    {
+				         {
 					      "testCaseId": "OPT_002",
 					      "scenario": "Place Order for Pets with valid data2",
 					      "module": "store",
@@ -93,26 +93,27 @@
 					        "status": "placed",
 					        "complete": true
 					      }
-					    },
-						
-						{
-							      "testCaseId": "OPT_003",
+				    }
+						],
+						"GetOrderPetTests": [
+							{
+							      "testCaseId": "GOP_003",
 							      "scenario": "Returns Pet Inventories by Status",
 							      "module": "store",
 							      "method": "GET",
-							      "endpoints": "/store/inventory",
+							      "endpoints": "store/inventory",
 							      "expectedStatusCode": 200,
 							      "expectedStatusLineMsg": "Successful operation",
 							      "typeOfTesting": "Positive",
-							      "GetOrderInputdata": {
-							        "additionalProp1": 0,
-							        "additionalProp2": 0,
-							        "additionalProp3": 0
+								  "expectedResponseKeys": ["available", "pending", "sold"]
 					      }
 					       
-						}
-						]	    
+						
+						]
+						
+							  }
+							     
 	
-	}
+	
 	
 		

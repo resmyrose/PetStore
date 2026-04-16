@@ -1,7 +1,6 @@
 package testDataWrapper;
 
 import pojo.AddNewPet;
-import pojo.GetOrderPet;
 import pojo.PlaceOrderPet;
 
 public class TestCaseData {
@@ -13,11 +12,32 @@ public class TestCaseData {
 	private int expectedStatusCode;
 	private String expectedStatusLineMsg;
 	private String typeOfTesting;
+	private String[] expectedResponseKeys;
 
 	private AddNewPet newPetInputdata;
 	private PlaceOrderPet placeOrderInputdata;
-	private GetOrderPet getOrderPetInputdata;
-
+	//private GetOrderPet getOrderPetInputdata;
+	
+	public void getExpectedResponseKeys(String[] expectedResponseKeys) {
+		this.expectedResponseKeys = expectedResponseKeys;
+	}
+	
+	
+	public void setExpectedResponseKeys(String[] expectedResponseKeys) {
+		this.expectedResponseKeys = expectedResponseKeys;
+	}
+	public AddNewPet getNewPetInputdata() {
+		return newPetInputdata;
+	}
+	public void setNewPetInputdata(AddNewPet newPetInputdata) {
+		this.newPetInputdata = newPetInputdata;
+	}
+	public PlaceOrderPet getPlaceOrderInputdata() {
+		return placeOrderInputdata;
+	}
+	public void setPlaceOrderInputdata(PlaceOrderPet placeOrderInputdata) {
+		this.placeOrderInputdata = placeOrderInputdata;
+	}
 	public AddNewPet getNewPetInputData() {
 		return newPetInputdata;
 	}
@@ -31,12 +51,7 @@ public class TestCaseData {
 	public void setPlaceOrderInputData(PlaceOrderPet placeOrderInputData) {
 		this.placeOrderInputdata= placeOrderInputData;
 	}
-	public GetOrderPet getGetOrderPetInputdata() {
-		return getOrderPetInputdata;
-	}
-	public void setGetOrderPetInputdata(GetOrderPet getOrderPetInputdata) {
-		this.getOrderPetInputdata = getOrderPetInputdata;
-	}
+	
 	public String getTestCaseId() {
 		return testCaseId;
 	}
