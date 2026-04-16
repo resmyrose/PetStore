@@ -1595,3 +1595,40 @@ Loaded Pet Test Case: Get Pet Details with valid Pet Id
 Reusing request with Bearer Token from background setup.
 Resolved Endpoint: pet/338
 Status Code: 404
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 404
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@68fe48d7
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "category": {
+        "id": 330,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 3,
+            "name": "Mochi3"
+        }
+    ],
+    "status": "available"
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
