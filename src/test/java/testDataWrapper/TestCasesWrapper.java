@@ -11,7 +11,27 @@ public class TestCasesWrapper {
 	private List<TestCaseData> AddNewPetTests;
 	 @JsonProperty("PlaceOrderPetTests")
 	private List<TestCaseData> PlaceOrderPetTests;
+	 @JsonProperty("GetPetByIdTests")
+	 private List<TestCaseData> GetPetByIdTests;
+	 @JsonProperty("DeletePetByIdTests")
+	 private List<TestCaseData>DeletePetByIdTests;
 	
+
+	public List<TestCaseData> getDeletePetByIdTests() {
+		return DeletePetByIdTests;
+	}
+
+	public void setDeletePetByIdTests(List<TestCaseData> deletePetByIdTests) {
+		DeletePetByIdTests = deletePetByIdTests;
+	}
+
+	public List<TestCaseData> getGetPetByIdTests() {
+		return GetPetByIdTests;
+	}
+
+	public void setGetPetByIdTests(List<TestCaseData> getPetByIdTests) {
+		GetPetByIdTests = getPetByIdTests;
+	}
 
 	public List<TestCaseData> getAddNewPetTests() {
 		//return AddNewPetTests;

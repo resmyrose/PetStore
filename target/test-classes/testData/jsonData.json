@@ -56,47 +56,33 @@
 						"status": "available"
 					}
 				}
-				],
-				"PlaceOrderPetTests": [
-					    {
-					      "testCaseId": "OPT_001",
-					      "scenario": "Place Order for Pets with valid data",
-					      "module": "store",
-					      "method": "POST",
-					      "endpoints": "/store/order",
-					      "expectedStatusCode": 200,
-					      "expectedStatusLineMsg": "OK",
-					      "typeOfTesting": "Positive",
-					      "placeOrderInputData": {
-					        "id": 338,
-					        "petId": 330,
-					        "quantity": 1,
-					        "shipDate": "2026-03-09T18:48:52.473Z",
-					        "status": "placed",
-					        "complete": true
-					      }
-					    },
-					    {
-					      "testCaseId": "OPT_002",
-					      "scenario": "Place Order for Pets with valid data2",
-					      "module": "store",
-					      "method": "POST",
-					      "endpoints": "/store/order",
-					      "expectedStatusCode": 200,
-					      "expectedStatusLineMsg": "OK",
-					      "typeOfTesting": "Positive",
-					      "placeOrderInputData": {
-					        "id": 339,
-					        "petId": 330,
-					        "quantity": 1,
-					        "shipDate": "2026-03-09T18:48:52.473Z",
-					        "status": "placed",
-					        "complete": true
-					      }
-					    }
-						]
-						
-
+			],
+			"GetPetByIdTests":[
+				{
+					"testCaseId": "GP_001",
+							      "scenario": "Get Pet Details with valid Pet Id",
+							      "module": "Pet",
+							      "method": "GET",
+							      "endpoints": "pet/{petId}",
+							      "expectedStatusCode": 200,
+							      "expectedStatusLineMsg": "OK",
+							      "typeOfTesting": "Positive"
+				}
+				
+			],
+			"DeletePetByIdTests":[
+				{
+					"testCaseId": "DP_001",
+							      "scenario": "Delete Pet Details with valid Pet Id",
+							      "module": "Pet",
+							      "method": "DELETE",
+							      "endpoints": "pet/{petId}",
+							      "expectedStatusCode": 200,
+							      "expectedStatusLineMsg": "OK",
+							      "typeOfTesting": "Positive"
+				}
+				
+			]
 	}
 	
 		

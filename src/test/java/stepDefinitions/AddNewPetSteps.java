@@ -21,6 +21,7 @@ public class AddNewPetSteps {
 	    private Response response;
 	    TestCaseData addNewPetTestCase;
 	    AddNewPet addNewPetInputData;
+	    public static String petId = "338"; // to save the petId
 
 
 
@@ -62,6 +63,11 @@ public class AddNewPetSteps {
 	@Then("A new pet is added to the store and admin receives response code {int}")
 	public void a_new_pet_is_added_to_the_store_and_admin_receives_response_code(Integer expectedStatusCode) {
 		response.prettyPrint();
+		// save the pet id if the pet if added successfully
+		if(response.getStatusCode() == 200) {
+			petId = response.jsonPath().getString("id");
+			System.out.println("Pet Id for the new pet is:"+ petId);
+		}
 
         assertEquals(response.getStatusCode(), expectedStatusCode.intValue(), "Status code mismatch");
 
