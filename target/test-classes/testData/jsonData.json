@@ -56,6 +56,7 @@
 						"status": "available"
 					}
 				}
+
 			],
 			"GetPetByIdTests":[
 				{
@@ -84,5 +85,66 @@
 				
 			]
 	}
+
+				],
+				"PlaceOrderPetTests": [
+					    {
+					      "testCaseId": "OPT_001",
+					      "scenario": "Place Order for Pets with valid data",
+					      "module": "store",
+					      "method": "POST",
+					      "endpoints": "/store/order",
+					      "expectedStatusCode": 200,
+					      "expectedStatusLineMsg": "OK",
+					      "typeOfTesting": "Positive",
+					      "placeOrderInputData": {
+					        "id": 338,
+					        "petId": 330,
+					        "quantity": 1,
+					        "shipDate": "2026-03-09T18:48:52.473Z",
+					        "status": "placed",
+					        "complete": true
+					      }
+					    },
+				         {
+					      "testCaseId": "OPT_002",
+					      "scenario": "Place Order for Pets with valid data2",
+					      "module": "store",
+					      "method": "POST",
+					      "endpoints": "/store/order",
+					      "expectedStatusCode": 200,
+					      "expectedStatusLineMsg": "OK",
+					      "typeOfTesting": "Positive",
+					      "placeOrderInputData": {
+					        "id": 339,
+					        "petId": 330,
+					        "quantity": 1,
+					        "shipDate": "2026-03-09T18:48:52.473Z",
+					        "status": "placed",
+					        "complete": true
+					      }
+				    }
+						],
+						"GetOrderPetTests": [
+							{
+							      "testCaseId": "GOP_003",
+							      "scenario": "Returns Pet Inventories by Status",
+							      "module": "store",
+							      "method": "GET",
+							      "endpoints": "store/inventory",
+							      "expectedStatusCode": 200,
+							      "expectedStatusLineMsg": "Successful operation",
+							      "typeOfTesting": "Positive",
+								  "expectedResponseKeys": ["available", "pending", "sold"]
+					      }
+					       
+						
+						]
+						
+							  }
+							     
+	
+	
+
 	
 		

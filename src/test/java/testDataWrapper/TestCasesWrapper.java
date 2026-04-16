@@ -7,6 +7,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class TestCasesWrapper {
 	
+
    @JsonProperty("AddNewPetTests")
 	private List<TestCaseData> AddNewPetTests;
 	 @JsonProperty("PlaceOrderPetTests")
@@ -15,6 +16,9 @@ public class TestCasesWrapper {
 	 private List<TestCaseData> GetPetByIdTests;
 	 @JsonProperty("DeletePetByIdTests")
 	 private List<TestCaseData>DeletePetByIdTests;
+     @JsonProperty("GetOrderPetTests")
+	 private List<TestCaseData> GetOrderPetTests;
+
 	
 
 	public List<TestCaseData> getDeletePetByIdTests() {
@@ -35,12 +39,12 @@ public class TestCasesWrapper {
 
 	public List<TestCaseData> getAddNewPetTests() {
 		//return AddNewPetTests;
-		// Petvents accidential modification and is safe for parallel execution
+		// Prevents accidental modification and is safe for parallel execution
 		return Collections.unmodifiableList(AddNewPetTests);
 	}
 
 	public void setAddNewPetTests(List<TestCaseData> AddNewPetTests) {
-		// Petvents accidential modification and is safe for parallel execution.
+		// Prevents accidental modification and is safe for parallel execution.
 		//The list returned by List.copyOf() makes the list unmodifiable as its a separate copy
 		//Even if someone modifies the original addNewPetTests, your internal data dosen't change
 		this.AddNewPetTests = List.copyOf(AddNewPetTests);
@@ -52,4 +56,14 @@ public class TestCasesWrapper {
 	public void setPlaceOrderPetTests(List<TestCaseData> placeOrderPetTests) {
 		this.PlaceOrderPetTests = placeOrderPetTests;
 	}
+
+	public List<TestCaseData> getGetOrderPetTests() {
+		return GetOrderPetTests;
+	}
+
+	public void setGetOrderPetTests(List<TestCaseData> getOrderPetTests) {
+		GetOrderPetTests = getOrderPetTests;
+	}
+	
+	
 }
