@@ -13,6 +13,12 @@ public class TestCasesWrapper {
 	 private List<TestCaseData> PlaceOrderPetTests;
      @JsonProperty("GetOrderPetTests")
 	 private List<TestCaseData> GetOrderPetTests;
+	 @JsonProperty("GetOrderByIdPetTests")
+	 private List<TestCaseData> GetOrderByIdPetTests;
+	 @JsonProperty("DeleteOrderByIdPetTests")
+	 private List<TestCaseData> DeleteOrderByIdPetTests;
+	
+
 	
 
 	public List<TestCaseData> getAddNewPetTests() {
@@ -42,6 +48,20 @@ public class TestCasesWrapper {
 	public void setGetOrderPetTests(List<TestCaseData> getOrderPetTests) {
 		GetOrderPetTests = getOrderPetTests;
 	}
+	 public List<TestCaseData> getGetOrderByIdPetTests() {
+			return GetOrderByIdPetTests;
+		}
+
+	public void setGetOrderByIdPetTests(List<TestCaseData> getOrderByIdPetTests) {
+			this.GetOrderByIdPetTests  = getOrderByIdPetTests;
+		 }
+	public List<TestCaseData> getDeleteOrderByIdPetTests() {
+		return DeleteOrderByIdPetTests;
+	}
+
+	 public void setDeleteOrderByIdPetTests(List<TestCaseData> deleteOrderByIdPetTests) {
+		 this.DeleteOrderByIdPetTests = deleteOrderByIdPetTests;
+	 }
 	
 	
 }

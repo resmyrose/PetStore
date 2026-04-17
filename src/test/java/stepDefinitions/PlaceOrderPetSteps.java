@@ -15,17 +15,19 @@ import testDataWrapper.TestCaseData;
 import utilities.JSONDataReader;
 import utilities.LoggerLoad;
 
-public class PlaceOrderPetSteps {
+public class PlaceOrderPetSteps
+{
 
 	    private RequestSpecification request;
 	    private Response response;
 	    TestCaseData PlaceOrderPetTestCase;
 	    PlaceOrderPet PlaceOrderPetInputData;
-
+        public static String PetID;
 
 
 	@Given("Admin creates the POST request with {string}")
-	public void admin_creates_the_post_request_with(String string) {
+	public void admin_creates_the_post_request_with(String string)
+	{
 		  // Prepare request
         request = given()
                 .baseUri(Hooks.baseUrl)
@@ -35,7 +37,8 @@ public class PlaceOrderPetSteps {
 	}
 
 	@When("Admin sends the POST request with valid data with {string}")
-	public void admin_sends_the_post_request_with_valid_data_with(String scenario) {
+	public void admin_sends_the_post_request_with_valid_data_with(String scenario) 
+	{
 		// load place order pet test data for the given scenario
 	    PlaceOrderPetTestCase = JSONDataReader.getTestCaseByScenario(Hooks.allTestData.getPlaceOrderPetTests(),
 	    		scenario);
@@ -60,13 +63,25 @@ public class PlaceOrderPetSteps {
 	}
 
 	@Then("An Order is placed to the store and admin receives response code {int}")
-	public void an_order_is_placed_to_the_store_and_admin_receives_response_code(Integer expectedStatusCode) {
+	public void an_order_is_placed_to_the_store_and_admin_receives_response_code(Integer expectedStatusCode)
+	{
 		response.prettyPrint();
 
         assertEquals(response.getStatusCode(), expectedStatusCode.intValue(), "Status code mismatch");
 
         assertTrue(response.getStatusLine().contains(expectedStatusCode.toString()));
         assertTrue(response.getStatusLine().contains(PlaceOrderPetTestCase.getExpectedStatusLineMsg()));
+        if(expectedStatusCode == 201)
+        {
+        	
+        	PetID = response.jsonPath().getString("id");
+        	System.out.println("Pet_Id saved:"+ PetID);
+        	LoggerLoad.info("Pet_Id saved:"+ PetID);
+        	
+	     }
 	}
-
 }
+	
+	
+
+

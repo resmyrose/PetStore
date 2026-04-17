@@ -1525,3 +1525,83 @@ Response Body: {
     "peric": 11,
     "avaible": 1
 }
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Delete Order by Id Test Case: Delete Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Delete Order by Id Test Case: Delete Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/1
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Delete Order by Id Test Case: Delete Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Delete Order by Id Test Case: Delete Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
