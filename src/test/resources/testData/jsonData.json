@@ -1,5 +1,6 @@
 {
-	"AddNewPetTests": [
+	"AddNewPetTests":
+	 [
 		{
 			"testCaseId": "NPT_001",
 			"scenario": "Add new pet to the store with valid data",
@@ -83,11 +84,12 @@
 							      "typeOfTesting": "Positive"
 				}
 				
-			]
-	}
+			],
+	
+				
+				"PlaceOrderPetTests":
+				 [
 
-				],
-				"PlaceOrderPetTests": [
 					    {
 					      "testCaseId": "OPT_001",
 					      "scenario": "Place Order for Pets with valid data",
@@ -105,7 +107,7 @@
 					        "status": "placed",
 					        "complete": true
 					      }
-					    },
+				   },
 				         {
 					      "testCaseId": "OPT_002",
 					      "scenario": "Place Order for Pets with valid data2",
@@ -124,24 +126,53 @@
 					        "complete": true
 					      }
 				    }
-						],
-						"GetOrderPetTests": [
+					],
+						"GetOrderPetTests":
+						 [
 							{
-							      "testCaseId": "GOP_003",
-							      "scenario": "Returns Pet Inventories by Status",
-							      "module": "store",
-							      "method": "GET",
-							      "endpoints": "store/inventory",
-							      "expectedStatusCode": 200,
-							      "expectedStatusLineMsg": "Successful operation",
-							      "typeOfTesting": "Positive",
-								  "expectedResponseKeys": ["available", "pending", "sold"]
-					      }
+						      "testCaseId": "GOP_003",
+						      "scenario": "Returns Pet Inventories by Status",
+						      "module": "store",
+						      "method": "GET",
+						      "endpoints": "/store/inventory",
+						      "expectedStatusCode": 200,
+						      "expectedStatusLineMsg": "OK",
+						      "typeOfTesting": "Positive",
+							  "expectedResponseKeys": ["available", "pending", "sold"]
+					        }
 					       
 						
-						]
-						
-							  }
+						  ],
+						  "GetOrderByIdPetTests":
+						   [
+							{
+							      "testCaseId": "GOP_004",
+							      "scenario": "Find Purchase Order by Id",
+							      "module": "store",
+							      "method": "GET",
+							      "endpoints": "/store/order/{orderId}",
+							      "expectedStatusCode": 200,
+							      "expectedStatusLineMsg": "OK",
+							      "typeOfTesting": "Positive",
+								  "expectedResponseKeys": ["available", "pending", "sold"]
+					         }	 
+  							  ],
+						  "DeleteOrderByIdPetTests":
+						   [
+						  		{
+						  			"testCaseId": "DOP001",
+						  			"scenario": "Delete Purchase Order by Id",
+						  			"module": "store",
+						  			"method": "DELETE",
+						  			"endpoints": "/store/order/{orderId}",
+						  			"expectedStatusCode": 200,
+						  			"expectedStatusLineMsg": "OK",
+						  			"typeOfTesting": "Positive"
+						  		}
+							]
+
+
+			     	  }
 							     
 	
 	

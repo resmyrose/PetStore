@@ -13,15 +13,15 @@ import testDataWrapper.TestCaseData;
 import utilities.JSONDataReader;
 import utilities.LoggerLoad;
 
-public class GetOrderByIdSteps {
+public class DeleteOrderByIdSteps {
 	
 	private RequestSpecification request;
 	private Response response;
-	TestCaseData GetOrderByIdTestCase;
+	TestCaseData DeleteOrderByIdTestCase;
 	
 	
-	@Given("Admin creates GET request for Order by ID")
-	public void admin_creates_get_request_for_order_by_id() {
+	@Given("Admin creates DELETE request for Order by ID")
+	public void admin_creates_delete_request_for_order_by_id() {
 		// Prepare request
 				Hooks.request = given()
 			            .baseUri(Hooks.baseUrl)
@@ -29,13 +29,13 @@ public class GetOrderByIdSteps {
 				 
 	}
 
-	@When("Admin sends GET http request with {string}")
-	public void admin_sends_get_http_request_with_(String scenario) {
-		 GetOrderByIdTestCase = JSONDataReader.getTestCaseByScenario(Hooks.allTestData.getGetOrderByIdPetTests(),
+	@When("Admin sends DELETE request with {string}")
+	public void admin_sends_delete_request_with_(String scenario) {
+		 DeleteOrderByIdTestCase = JSONDataReader.getTestCaseByScenario(Hooks.allTestData.getDeleteOrderByIdPetTests(),
 	    		scenario); 
-		 LoggerLoad.info("Order by Id Test Case: " + GetOrderByIdTestCase.getScenario());
+		 LoggerLoad.info("Delete Order by Id Test Case: " + DeleteOrderByIdTestCase.getScenario());
 		 
-		 String endpoint = GetOrderByIdTestCase.getEndpoints();
+		 String endpoint = DeleteOrderByIdTestCase.getEndpoints();
     	 LoggerLoad.info("Endpoint: " + endpoint);
     	 System.out.println("Endpoint"      +endpoint);
     	 
@@ -50,11 +50,11 @@ public class GetOrderByIdSteps {
     
 	}
 
-	@Then("Admin receives {int} ok with details of the order id")
-	public void admin_receives_ok_with_details_of_the_order_id(Integer expectedStatuscode) {
+	@Then("Admin receives {int} ok with order id details")
+	public void admin_receives_ok_with_order_id_details(Integer expectedStatuscode) {
 		assertEquals(response.getStatusCode(), expectedStatuscode.intValue(), "Status code mismatch");
 	    assertTrue(response.getStatusLine().contains(expectedStatuscode.toString()));
-	    assertTrue(response.getStatusLine().contains(GetOrderByIdTestCase.getExpectedStatusLineMsg()));
+	    assertTrue(response.getStatusLine().contains(DeleteOrderByIdTestCase.getExpectedStatusLineMsg()));
     } 
 }
 

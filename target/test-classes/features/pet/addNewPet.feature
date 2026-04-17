@@ -13,5 +13,5 @@ Feature: Add a new pet to the store
     Examples: 
      |            scenarioName                      |
      |   Add new pet to the store with valid data   |
-    # |   Add new pet to the store with valid data2  |
+     |   Add new pet to the store with valid data2  |
 

@@ -25,11 +25,11 @@ public class GetOrderSteps
 	@Given("Admin creates the GET request with {string}")
 	public void admin_creates_the_get_request_with_(String scenarioName) {
 		  // Prepare request
-		request = given()
+		Hooks.request = given()
 	            .baseUri(Hooks.baseUrl)
 	            .header("Content-Type", "application/json");
 		
-		request = Hooks.request;                
+		               
 	}
 	
 	@When("Admin sends the GET request for Inventory with {string}")
@@ -54,11 +54,14 @@ public class GetOrderSteps
 	}
 	
 	@Then("Admin receives response code {int}")
-	public void admin_receives_response_code(Integer expectedStatusCode) {
-	   
+	public void admin_receives_response_code(Integer expectedStatusCode)
+	{
+		 for (String key : GetOrderTestCase.getExpectedResponseKeys())
+		    {
+		        assertTrue(response.getBody().asString().contains(key));
+		    }
 		assertEquals(response.getStatusCode(), expectedStatusCode.intValue(), "Status code mismatch");
 	    assertTrue(response.getStatusLine().contains(expectedStatusCode.toString()));
 	    assertTrue(response.getStatusLine().contains(GetOrderTestCase.getExpectedStatusLineMsg()));
-
     }
 }

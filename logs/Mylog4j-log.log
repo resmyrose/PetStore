@@ -35,3 +35,1313 @@ Loaded Pet Test Case: Get Pet Details with valid Pet Id
 Reusing request with Bearer Token from background setup.
 Resolved Endpoint: pet/338
 Status Code: 200
+<<<<<<< HEAD
+=======
+Response Body: {
+    "id": 339,
+    "category": {
+        "id": 330,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 4,
+            "name": "Cocao"
+        }
+    ],
+    "status": "available"
+=======
+Base URL loaded: https://petstore.swagger.io/#/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@8bd86c8
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@2b0454d2
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Base URL loaded: https://petstore.swagger.io/#/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@4fa9ab6
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@2b0454d2
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Base URL loaded: https://petstore.swagger.io/#/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@8bd86c8
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@4b93dd6a
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Base URL loaded: https://petstore.swagger.io/#/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@8bd86c8
+Request with body prepared.
+Endpoint: pet/addPet
+Base URL loaded: https://petstore.swagger.io/#/
+All test data loaded
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@3404e5c4
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@8bd86c8
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@2b0454d2
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Base URL loaded: https://petstore.swagger.io/#/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@8bd86c8
+Request with body prepared.
+Endpoint: pet/addPet
+Base URL loaded: https://petstore.swagger.io/#/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/#/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@4fa9ab6
+Status Code: 404
+Request with body prepared.
+Endpoint: pet/addPet
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@582a3b19
+Request with body prepared.
+Endpoint: pet/addPet
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@8bd86c8
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@2b0454d2
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@2b0454d2
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Base URL loaded: https://petstore.swagger.io/#/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@1e9469b8
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@4cc8d70d
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Base URL loaded: https://petstore.swagger.io/#/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@5a08efdc
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@5c59a0f7
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Base URL loaded: https://petstore.swagger.io/#/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@5d497a91
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@24a4e2c5
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Base URL loaded: https://petstore.swagger.io/#/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@5d497a91
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@27da994b
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Base URL loaded: https://petstore.swagger.io/#/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@5a08efdc
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@341c6ac2
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 404
+Response Body: <html>
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <center>
+      <h1>404 Not Found</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@17273273
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 415
+Response Body: <apiResponse>
+  <type>unknown</type>
+</apiResponse>
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@23ee2ccf
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 415
+Response Body: <apiResponse>
+  <type>unknown</type>
+</apiResponse>
+Base URL loaded: https://petstore.swagger.io/v2
+Base URL loaded: https://petstore.swagger.io/v2
+Base URL loaded: https://petstore.swagger.io/v2
+Base URL loaded: https://petstore.swagger.io/v2
+Base URL loaded: https://petstore.swagger.io/v2
+Base URL loaded: https://petstore.swagger.io/v2
+Base URL loaded: https://petstore.swagger.io/v2
+Base URL loaded: https://petstore.swagger.io/v2
+Base URL loaded: https://petstore.swagger.io/v2
+Base URL loaded: https://petstore.swagger.io/v2
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Place order Pet Test Case: Place order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@5c5d6175
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 9223372036854775807,
+    "petId": 0,
+    "quantity": 0,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Place order Pet Test Case: Place order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@5c5d6175
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 336,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Place order Pet Test Case: Place order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@6d6bbd35
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 336,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@5c5d6175
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 415
+Response Body: <apiResponse>
+  <type>unknown</type>
+</apiResponse>
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@2baf72d5
+Request with body prepared.
+Endpoint: pet/addPet
+Status Code: 415
+Response Body: <apiResponse>
+  <type>unknown</type>
+</apiResponse>
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Place order Pet Test Case: Place order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@6d6bbd35
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Place order Pet Test Case: Place order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@5c5d6175
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Place order Pet Test Case: Place order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@5c5d6175
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Place order Pet Test Case: Place order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@6d6bbd35
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Place order Pet Test Case: Place order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@5c5d6175
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Place order Pet Test Case: Place order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@5c5d6175
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Place order Pet Test Case: Place order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@7544ac86
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Place order Pet Test Case: Place order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@5c5d6175
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Place order Pet Test Case: Place order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@6d6bbd35
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Place order Pet Test Case: Place order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@5c5d6175
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Place order Pet Test Case: Place Order for Pets with valid data2
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@544e8149
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Place order Pet Test Case: Place Order for Pets with valid data2
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@2da3b078
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Place order Pet Test Case: Place Order for Pets with valid data2
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@2da3b078
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Place order Pet Test Case: Place Order for Pets with valid data2
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@544e8149
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Place order Pet Test Case: Place Order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@7544ac86
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Loaded Place order Pet Test Case: Place Order for Pets with valid data2
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@377dfb8d
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Loaded Place order Pet Test Case: Place Order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@5c5d6175
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Loaded Place order Pet Test Case: Place Order for Pets with valid data2
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@45c80312
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+>>>>>>> 28c768af8c3d6da1cde9e2783c5090f877618155
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@61e7bf2f
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "category": {
+        "id": 330,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 3,
+            "name": "Mochi3"
+        }
+    ],
+    "status": "available"
+}
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@6c33da7a
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "category": {
+        "id": 331,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 4,
+            "name": "Cocao"
+        }
+    ],
+    "status": "available"
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Place order Pet Test Case: Place Order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@96a75da
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Loaded Place order Pet Test Case: Place Order for Pets with valid data2
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@4b033eac
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2
+Base URL loaded: https://petstore.swagger.io/v2
+Base URL loaded: https://petstore.swagger.io/v2/
+Base URL loaded: https://petstore.swagger.io/v2/
+Base URL loaded: https://petstore.swagger.io/v2/
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Get all order: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Get all order: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Get all order: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Get all order: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Get all order: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Get all order: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Get all order: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Get all order: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Get all order: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Get all order: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Get all order: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Get all order: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Get all order: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Get all order: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Get all order: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Get all order: Returns Pet Inventories by Status
+Endpoint: store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Status Code: 200
+Response Body: {
+    "sold": 22,
+    "INVALID_STATUS": 1,
+    "string": 392,
+    "d": 1,
+    "available, sold": 1,
+    "pending": 13,
+    "available": 518,
+    "peric": 9,
+    "avaible": 1
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Status Code: 200
+Response Body: {
+    "sold": 30,
+    "INVALID_STATUS": 1,
+    "string": 401,
+    "d": 1,
+    "available, sold": 1,
+    "pending": 14,
+    "available": 504,
+    "peric": 9,
+    "avaible": 1
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Status Code: 200
+Response Body: {
+    "sold": 29,
+    "INVALID_STATUS": 1,
+    "string": 405,
+    "d": 1,
+    "available, sold": 1,
+    "pending": 12,
+    "available": 510,
+    "peric": 9,
+    "avaible": 1
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Status Code: 200
+Response Body: {
+    "sold": 29,
+    "INVALID_STATUS": 1,
+    "string": 420,
+    "d": 1,
+    "available, sold": 1,
+    "pending": 14,
+    "available": 502,
+    "peric": 11,
+    "avaible": 1
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Delete Order by Id Test Case: Delete Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Delete Order by Id Test Case: Delete Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/1
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Delete Order by Id Test Case: Delete Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Delete Order by Id Test Case: Delete Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+>>>>>>> origin/Nacha
+Base URL loaded: https://petstore.swagger.io/v2/
+Base URL loaded: https://petstore.swagger.io/v2/
+Base URL loaded: https://petstore.swagger.io/v2/
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@7ed9499e
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "category": {
+        "id": 330,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 3,
+            "name": "Mochi3"
+        }
+    ],
+    "status": "available"
+}
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@ee96866
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "category": {
+        "id": 331,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 4,
+            "name": "Cocao"
+        }
+    ],
+    "status": "available"
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Place order Pet Test Case: Place Order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@10ef5fa0
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Loaded Place order Pet Test Case: Place Order for Pets with valid data2
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@798deee8
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Status Code: 200
+Response Body: {
+    "totvs": 5,
+    "sold": 82,
+    "string": 268,
+    "Avaliable": 1,
+    "sold ": 1,
+    "NOT available": 1,
+    "pending": 14,
+    "available": 555,
+    "www.google.com:80/search?q=ZAP": 1,
+    "weisskeiner1": 1,
+    "soldout": 1,
+    "peric": 33,
+    "Unavailable": 1,
+    "deleted": 1,
+    "Pending": 1,
+    "Not available": 1
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Delete Order by Id Test Case: Delete Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/330
+Status Code: 404
