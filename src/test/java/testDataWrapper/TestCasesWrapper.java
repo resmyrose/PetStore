@@ -6,33 +6,54 @@ import java.util.List;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class TestCasesWrapper {
-	
-     @JsonProperty("AddNewPetTests")
-     private List<TestCaseData> AddNewPetTests;
-     @JsonProperty("PlaceOrderPetTests")
-	 private List<TestCaseData> PlaceOrderPetTests;
-     @JsonProperty("GetOrderPetTests")
-	 private List<TestCaseData> GetOrderPetTests;
-	 @JsonProperty("GetOrderByIdPetTests")
-	 private List<TestCaseData> GetOrderByIdPetTests;
-	 @JsonProperty("DeleteOrderByIdPetTests")
-	 private List<TestCaseData> DeleteOrderByIdPetTests;
-	
 
-	
+	@JsonProperty("AddNewPetTests")
+	private List<TestCaseData> AddNewPetTests;
+	@JsonProperty("PlaceOrderPetTests")
+	private List<TestCaseData> PlaceOrderPetTests;
+	@JsonProperty("GetPetByIdTests")
+	private List<TestCaseData> GetPetByIdTests;
+	@JsonProperty("DeletePetByIdTests")
+	private List<TestCaseData> DeletePetByIdTests;
+	@JsonProperty("GetOrderPetTests")
+	private List<TestCaseData> GetOrderPetTests;
+
+	@JsonProperty("GetOrderByIdPetTests")
+	private List<TestCaseData> GetOrderByIdPetTests;
+	@JsonProperty("DeleteOrderByIdPetTests")
+	private List<TestCaseData> DeleteOrderByIdPetTests;
+
+	public List<TestCaseData> getDeletePetByIdTests() {
+		return DeletePetByIdTests;
+	}
+
+	public void setDeletePetByIdTests(List<TestCaseData> deletePetByIdTests) {
+		DeletePetByIdTests = deletePetByIdTests;
+	}
+
+	public List<TestCaseData> getGetPetByIdTests() {
+		return GetPetByIdTests;
+	}
+
+	public void setGetPetByIdTests(List<TestCaseData> getPetByIdTests) {
+		GetPetByIdTests = getPetByIdTests;
+	}
 
 	public List<TestCaseData> getAddNewPetTests() {
-		//return AddNewPetTests;
+		// return AddNewPetTests;
 		// Prevents accidental modification and is safe for parallel execution
 		return Collections.unmodifiableList(AddNewPetTests);
 	}
 
 	public void setAddNewPetTests(List<TestCaseData> AddNewPetTests) {
 		// Prevents accidental modification and is safe for parallel execution.
-		//The list returned by List.copyOf() makes the list unmodifiable as its a separate copy
-		//Even if someone modifies the original addNewPetTests, your internal data dosen't change
+		// The list returned by List.copyOf() makes the list unmodifiable as its a
+		// separate copy
+		// Even if someone modifies the original addNewPetTests, your internal data
+		// dosen't change
 		this.AddNewPetTests = List.copyOf(AddNewPetTests);
 	}
+
 	public List<TestCaseData> getPlaceOrderPetTests() {
 		return PlaceOrderPetTests;
 	}
@@ -48,20 +69,21 @@ public class TestCasesWrapper {
 	public void setGetOrderPetTests(List<TestCaseData> getOrderPetTests) {
 		GetOrderPetTests = getOrderPetTests;
 	}
-	 public List<TestCaseData> getGetOrderByIdPetTests() {
-			return GetOrderByIdPetTests;
-		}
+
+	public List<TestCaseData> getGetOrderByIdPetTests() {
+		return GetOrderByIdPetTests;
+	}
 
 	public void setGetOrderByIdPetTests(List<TestCaseData> getOrderByIdPetTests) {
-			this.GetOrderByIdPetTests  = getOrderByIdPetTests;
-		 }
+		this.GetOrderByIdPetTests = getOrderByIdPetTests;
+	}
+
 	public List<TestCaseData> getDeleteOrderByIdPetTests() {
 		return DeleteOrderByIdPetTests;
 	}
 
-	 public void setDeleteOrderByIdPetTests(List<TestCaseData> deleteOrderByIdPetTests) {
-		 this.DeleteOrderByIdPetTests = deleteOrderByIdPetTests;
-	 }
-	
-	
+	public void setDeleteOrderByIdPetTests(List<TestCaseData> deleteOrderByIdPetTests) {
+		this.DeleteOrderByIdPetTests = deleteOrderByIdPetTests;
+	}
+
 }

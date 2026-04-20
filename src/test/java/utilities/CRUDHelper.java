@@ -11,7 +11,7 @@ public class CRUDHelper {
 
     public static RequestSpecification getRequestWithNoAuth() {
 
-        RestAssured.baseURI = configReader.getProperty ("baseURL");
+        RestAssured.baseURI = configReader.getProperty("baseURL");
         //Setting up the request before sending an API
         RequestSpecification request = RestAssured.given();
         return request;

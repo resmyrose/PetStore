@@ -22,7 +22,7 @@ public class PlaceOrderPetSteps
 	    private Response response;
 	    TestCaseData PlaceOrderPetTestCase;
 	    PlaceOrderPet PlaceOrderPetInputData;
-        public static String PetID;
+        public static String PetID = "3";
 
 
 	@Given("Admin creates the POST request with {string}")
