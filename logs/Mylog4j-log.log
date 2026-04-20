@@ -1345,3 +1345,801 @@ Loaded Pet Test Case: Get Pet Details with valid Pet Id
 Reusing request with Bearer Token from background setup.
 Resolved Endpoint: pet/330
 Status Code: 404
+Base URL loaded: https://petstore.swagger.io/v2/
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Place order Pet Test Case: Place Order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@244e619a
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Loaded Place order Pet Test Case: Place Order for Pets with valid data2
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@67d4c48d
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/330
+Status Code: 404
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/330
+Status Code: 404
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Delete Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/330
+Status Code: 404
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@244e619a
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "category": {
+        "id": 330,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 3,
+            "name": "Mochi3"
+        }
+    ],
+    "status": "available"
+}
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@39f42d0e
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "category": {
+        "id": 331,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 4,
+            "name": "Cocao"
+        }
+    ],
+    "status": "available"
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/330
+Status Code: 404
+Loaded Pet Test Case: Delete Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/330
+Status Code: 404
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/330
+Status Code: 404
+Loaded Pet Test Case: Delete Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/330
+Status Code: 404
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/330
+Status Code: 404
+Loaded Pet Test Case: Delete Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/330
+Status Code: 404
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@10ef5fa0
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "category": {
+        "id": 330,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 3,
+            "name": "Mochi3"
+        }
+    ],
+    "status": "available"
+}
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@3855d9b2
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "category": {
+        "id": 331,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 4,
+            "name": "Cocao"
+        }
+    ],
+    "status": "available"
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Loaded Pet Test Case: Delete Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Loaded Pet Test Case: Delete Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Delete Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Delete Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Delete Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@10ef5fa0
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "category": {
+        "id": 330,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 3,
+            "name": "Mochi3"
+        }
+    ],
+    "status": "available"
+}
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@3855d9b2
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "category": {
+        "id": 331,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 4,
+            "name": "Cocao"
+        }
+    ],
+    "status": "available"
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Loaded Pet Test Case: Delete Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@7d50f2a8
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "category": {
+        "id": 330,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 3,
+            "name": "Mochi3"
+        }
+    ],
+    "status": "available"
+}
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@2cd52eda
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "category": {
+        "id": 331,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 4,
+            "name": "Cocao"
+        }
+    ],
+    "status": "available"
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@5d68954d
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "category": {
+        "id": 330,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 3,
+            "name": "Mochi3"
+        }
+    ],
+    "status": "available"
+}
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@35744f8
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "category": {
+        "id": 331,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 4,
+            "name": "Cocao"
+        }
+    ],
+    "status": "available"
+}
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Loaded Place order Pet Test Case: Place Order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@7a522157
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Loaded Place order Pet Test Case: Place Order for Pets with valid data2
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@60b4c754
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@37b238da
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "category": {
+        "id": 330,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 3,
+            "name": "Mochi3"
+        }
+    ],
+    "status": "available"
+}
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@31c0c7e5
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "category": {
+        "id": 331,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 4,
+            "name": "Cocao"
+        }
+    ],
+    "status": "available"
+}
+Loaded Pet Test Case: Delete Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/339
+Status Code: 200
+Delete Order by Id Test Case: Delete Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Status Code: 200
+Response Body: {
+    "sold": 242,
+    "AAA": 4,
+    "string": 72,
+    "unavailable": 1,
+    "pending": 68,
+    "available": 226,
+    "avalible": 1,
+    "False": 2,
+    "availabl": 1,
+    "peric": 6,
+    "0": 2,
+    "123": 1,
+    "SOLD": 1,
+    "available, sold": 1,
+    "invalid": 8
+}
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Loaded Place order Pet Test Case: Place Order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@22846a1d
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Loaded Place order Pet Test Case: Place Order for Pets with valid data2
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@7169d668
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@37b238da
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "category": {
+        "id": 330,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 3,
+            "name": "Mochi3"
+        }
+    ],
+    "status": "available"
+}
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@31c0c7e5
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "category": {
+        "id": 331,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 4,
+            "name": "Cocao"
+        }
+    ],
+    "status": "available"
+}
+Loaded Pet Test Case: Delete Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/339
+Status Code: 200
+Delete Order by Id Test Case: Delete Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Status Code: 200
+Response Body: {
+    "sold": 240,
+    "AAA": 4,
+    "string": 72,
+    "unavailable": 1,
+    "pending": 69,
+    "available": 227,
+    "avalible": 1,
+    "False": 2,
+    "availabl": 1,
+    "peric": 6,
+    "0": 2,
+    "123": 1,
+    "SOLD": 1,
+    "available, sold": 1,
+    "invalid": 8
+}
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Loaded Place order Pet Test Case: Place Order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@22846a1d
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Loaded Place order Pet Test Case: Place Order for Pets with valid data2
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@7169d668
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Base URL loaded: https://petstore.swagger.io/v2/
+All test data loaded
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@37b238da
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "category": {
+        "id": 330,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 3,
+            "name": "Mochi3"
+        }
+    ],
+    "status": "available"
+}
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@31c0c7e5
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "category": {
+        "id": 331,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 4,
+            "name": "Cocao"
+        }
+    ],
+    "status": "available"
+}
+Loaded Pet Test Case: Delete Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/339
+Status Code: 200
+Delete Order by Id Test Case: Delete Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Status Code: 200
+Response Body: {
+    "sold": 240,
+    "AAA": 4,
+    "string": 73,
+    "unavailable": 1,
+    "pending": 69,
+    "available": 226,
+    "avalible": 1,
+    "False": 2,
+    "availabl": 1,
+    "peric": 6,
+    "0": 2,
+    "123": 1,
+    "SOLD": 1,
+    "available, sold": 1,
+    "invalid": 8
+}
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Loaded Place order Pet Test Case: Place Order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@22846a1d
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Loaded Place order Pet Test Case: Place Order for Pets with valid data2
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@7169d668
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}

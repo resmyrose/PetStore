@@ -13,6 +13,7 @@ import io.restassured.specification.RequestSpecification;
 import testDataWrapper.TestCaseData;
 import utilities.JSONDataReader;
 import utilities.LoggerLoad;
+import utilities.configReader;
 
 public class GetPetSteps {
 	
@@ -23,9 +24,10 @@ public class GetPetSteps {
 	
 	@Given("Admin creates a GET pet by id request")
 	public void admin_creates_a_get_pet_by_id_request() {
-		  // Prepare request
+//		  // Prepare request
         request = given()
                 .baseUri(Hooks.baseUrl)
+        		//.baseUri(configReader.getProperty("baseURL"))
                 .header("Content-Type", "application/json");
 
         Hooks.request = request;

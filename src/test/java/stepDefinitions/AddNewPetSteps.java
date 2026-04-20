@@ -21,7 +21,7 @@ public class AddNewPetSteps {
 	    private Response response;
 	    TestCaseData addNewPetTestCase;
 	    AddNewPet addNewPetInputData;
-	    public static String petId = "330"; // to save the petId
+	    public static String petId = "338"; // to save the petId
 
 
 
