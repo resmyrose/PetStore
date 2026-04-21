@@ -3,7 +3,7 @@ package hooks;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import io.cucumber.java.BeforeAll;
+import io.cucumber.java.Before;
 import io.restassured.specification.RequestSpecification;
 import testDataWrapper.TestCasesWrapper;
 import utilities.JSONDataReader;
@@ -19,19 +19,13 @@ public class Hooks {
     public static RequestSpecification request;
   
 
-    @BeforeAll()
-    public static void setup() {
+    @Before()
+    public void setup() {
         // Load base URL from config
+    	System.out.println("Printing Base Url" );
         baseUrl = configReader.getProperty("baseURL");
-        LoggerLoad.info("Base URL loaded: " + baseUrl);
-
-       // System.out.println("In Hooks class.........");
-
-        // Load all test data from JSON
-        allTestData = JSONDataReader.readAllModules("src/test/resources/testData/jsonData.json");
-
-        LoggerLoad.info("All test data loaded");
     }
+        
 
 //    @After
     public void tearDown() {

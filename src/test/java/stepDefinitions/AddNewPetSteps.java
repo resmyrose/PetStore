@@ -11,6 +11,7 @@ import io.cucumber.java.en.When;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import pojo.AddNewPet;
+import runner.testRunner;
 import testDataWrapper.TestCaseData;
 import utilities.JSONDataReader;
 import utilities.LoggerLoad;
@@ -27,12 +28,12 @@ public class AddNewPetSteps {
 
 	@Given("Admin creates a POST request with {string}")
 	public void admin_creates_a_post_request_with(String string) {
-		  // Prepare request
+		  System.out.println("Printing Base URL    "+Hooks.baseUrl);// Prepare request
         request = given()
                 .baseUri(Hooks.baseUrl)
                 .header("Content-Type", "application/json");
 
-        Hooks.request = request; // You should set it here so other step classes can use it
+        //Hooks.request = request; // You should set it here so other step classes can use it
 	}
 
 	@When("Admin sends a POST request with valid data with {string}")
@@ -46,8 +47,8 @@ public class AddNewPetSteps {
 	    addNewPetInputData = addNewPetTestCase.getNewPetInputData();
 	    LoggerLoad.info("Loaded Add New Pet Test Case: " + addNewPetInputData);
 
-        Hooks.request = Hooks.request.body(addNewPetInputData);
-        Hooks.request.log().all();
+        //request = Hooks.request.body(addNewPetInputData);
+        //Hooks.request.log().all();
         LoggerLoad.info("Request with body prepared.");
 
 

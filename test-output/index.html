@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\LaksA\AppData\Local\Temp\testng-eclipse-1525311122\testng-customsuite.xml</span>
+                    <span>C:\Users\LaksA\AppData\Local\Temp\testng-eclipse-1490134751\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 7 failed,   </span>
+                    <span class="method-stats">9 methods, 9 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -113,12 +113,12 @@
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check admin able to delete Order by ID&quot;, &quot;Delete Purchase Order by Id&quot;)">runScenario("Check admin able to delete Order by ID", "Delete Purchase Order by Id")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;, &quot;Place an Order for purchasing the Pet&quot;)">runScenario("", "Place an Order for purchasing the Pet")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;, &quot;Place an Order for purchasing the Pet&quot;)">runScenario("", "Place an Order for purchasing the Pet")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;, &quot;Delete Purchase Order by Id&quot;)">runScenario("", "Delete Purchase Order by Id")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -133,7 +133,17 @@
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successfully delete the pet details by pet id&quot;, &quot;Delete Pet by Id&quot;)">runScenario("Successfully delete the pet details by pet id", "Delete Pet by Id")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;, &quot;Place an Order for purchasing the Pet&quot;)">runScenario("", "Place an Order for purchasing the Pet")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.testRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successfully retrieve the pet details by pet id&quot;, &quot;Get Pet by Id&quot;)">runScenario("Successfully retrieve the pet details by pet id", "Get Pet by Id")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -232,37 +242,7 @@
 	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
 	at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
 	at stepDefinitions.GetOrderByIdSteps.admin_creates_get_request_for_order_by_id(GetOrderByIdSteps.java:27)
-	at ✽.Admin creates GET request for Order by ID(file:///C:/Users/LaksA/eclipse-workspace/PetStore/src/test/resources/features/store/GetOrderById.feature:5)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Check admin able to delete Order by ID&quot;, &quot;Delete Purchase Order by Id&quot;)">
-                  </a> <!-- runScenario("Check admin able to delete Order by ID", "Delete Purchase Order by Id") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Check admin able to delete Order by ID","Delete Purchase Order by Id")</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: Base URI cannot be null
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
-	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
-	at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
-	at stepDefinitions.DeleteOrderByIdSteps.admin_creates_delete_request_for_order_by_id(DeleteOrderByIdSteps.java:27)
-	at ✽.Admin creates DELETE request for Order by ID(file:///C:/Users/LaksA/eclipse-workspace/PetStore/src/test/resources/features/store/DeleteOrderById.feature:5)
+	at ✽.Admin creates GET request for Order by ID(file:///C:/Users/LaksA/eclipse-workspace/PetStore/src/test/resources/features/store/GetOrderById.feature:6)
 
 </div> <!-- stack-trace -->
                   <em>
@@ -275,6 +255,66 @@
                   </a> <!-- runScenario("", "Place an Order for purchasing the Pet") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("","Place an Order for purchasing the Pet")</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Test name must not be null or empty
+	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
+	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:97)
+	at com.aventstack.extentreports.ExtentTest.createNode(ExtentTest.java:154)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.createScenarioOutline(ExtentCucumberAdapter.java:374)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleScenarioOutline(ExtentCucumberAdapter.java:353)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleTestCaseStarted(ExtentCucumberAdapter.java:162)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:107)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:104)
+	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
+	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
+	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
+	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62)
+	at io.cucumber.core.runner.TestCase.emitTestCaseStarted(TestCase.java:213)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:74)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;&quot;, &quot;Delete Purchase Order by Id&quot;)">
+                  </a> <!-- runScenario("", "Delete Purchase Order by Id") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("","Delete Purchase Order by Id")</span>
                   <div class="stack-trace">java.lang.IllegalArgumentException: Test name must not be null or empty
 	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
 	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:97)
@@ -451,6 +491,31 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="runScenario(&quot;Successfully delete the pet details by pet id&quot;, &quot;Delete Pet by Id&quot;)">
+                  </a> <!-- runScenario("Successfully delete the pet details by pet id", "Delete Pet by Id") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successfully delete the pet details by pet id","Delete Pet by Id")</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Base URI cannot be null
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
+	at stepDefinitions.DeletePetSteps.admin_creates_a_delete_pet_by_id_request(DeletePetSteps.java:26)
+	at ✽.Admin creates a DELETE pet by id request(file:///C:/Users/LaksA/eclipse-workspace/PetStore/src/test/resources/features/pet/deletePet.feature:6)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="runScenario(&quot;&quot;, &quot;Place an Order for purchasing the Pet&quot;)">
                   </a> <!-- runScenario("", "Place an Order for purchasing the Pet") -->
                   <span class="method-name">runScenario</span>
@@ -509,12 +574,42 @@
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successfully retrieve the pet details by pet id&quot;, &quot;Get Pet by Id&quot;)">
+                  </a> <!-- runScenario("Successfully retrieve the pet details by pet id", "Get Pet by Id") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successfully retrieve the pet details by pet id","Get Pet by Id")</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Base URI cannot be null
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
+	at stepDefinitions.GetPetSteps.admin_creates_a_get_pet_by_id_request(GetPetSteps.java:28)
+	at ✽.Admin creates a GET pet by id request(file:///C:/Users/LaksA/eclipse-workspace/PetStore/src/test/resources/features/pet/GetPet.feature:6)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-failed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\LaksA\AppData\Local\Temp\testng-eclipse-1525311122\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\LaksA\AppData\Local\Temp\testng-eclipse-1490134751\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -571,40 +666,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'runner.testRunner')
-data.setCell(0, 3, 2068);
+data.setCell(0, 3, 1620);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'runner.testRunner')
-data.setCell(1, 3, 466);
+data.setCell(1, 3, 58);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'runner.testRunner')
-data.setCell(2, 3, 29);
+data.setCell(2, 3, 42);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'runner.testRunner')
-data.setCell(3, 3, 15);
+data.setCell(3, 3, 32);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'runScenario')
 data.setCell(4, 2, 'runner.testRunner')
-data.setCell(4, 3, 12);
+data.setCell(4, 3, 16);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'runScenario')
 data.setCell(5, 2, 'runner.testRunner')
-data.setCell(5, 3, 9);
+data.setCell(5, 3, 14);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'runScenario')
 data.setCell(6, 2, 'runner.testRunner')
-data.setCell(6, 3, 9);
+data.setCell(6, 3, 12);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'runner.testRunner')
+data.setCell(7, 3, 11);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'runner.testRunner')
+data.setCell(8, 3, 7);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -632,54 +735,70 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">runner.testRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@333d44f6)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@28b5662d)</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">globalSetup</span>
+                <span class="method-start">2155 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">runScenario("", "Add a new pet to the store")</span>
-                <span class="method-start">1952 ms</span>
+                <span class="method-name">runScenario("Successfully retrieve the pet details by pet id", "Get Pet by Id")</span>
+                <span class="method-start">3531 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("", "Add a new pet to the store")</span>
-                <span class="method-start">2429 ms</span>
+                <span class="method-start">5158 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">runScenario("Check admin able to delete Order by ID", "Delete Purchase Order by Id")</span>
-                <span class="method-start">2442 ms</span>
+                <span class="method-name">runScenario("", "Add a new pet to the store")</span>
+                <span class="method-start">5204 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Successfully delete the pet details by pet id", "Delete Pet by Id")</span>
+                <span class="method-start">5216 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("", "Delete Purchase Order by Id")</span>
+                <span class="method-start">5250 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("", "Returns Pet Inventories by Status")</span>
-                <span class="method-start">4515 ms</span>
+                <span class="method-start">5268 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Check admin able to retrieve Order by ID", "Find Purchase Order by Id")</span>
-                <span class="method-start">4533 ms</span>
+                <span class="method-start">5286 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("", "Place an Order for purchasing the Pet")</span>
-                <span class="method-start">4564 ms</span>
+                <span class="method-start">5348 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("", "Place an Order for purchasing the Pet")</span>
-                <span class="method-start">4580 ms</span>
+                <span class="method-start">5369 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">4603 ms</span>
+                <span class="method-start">5389 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
