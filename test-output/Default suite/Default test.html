@@ -55,11 +55,19 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
+<<<<<<< HEAD
 <td>Tests passed/Failed/Skipped:</td><td>0/9/0</td>
 </tr><tr>
 <td>Started on:</td><td>Mon Apr 20 14:03:00 EDT 2026</td>
 </tr>
 <tr><td>Total time:</td><td>7 seconds (7167 ms)</td>
+=======
+<td>Tests passed/Failed/Skipped:</td><td>7/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 20 14:38:54 PDT 2026</td>
+</tr>
+<tr><td>Total time:</td><td>7 seconds (7154 ms)</td>
+>>>>>>> 9dccecfb8fda19ebe7412b7ab29bfec4bb93e3c1
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,6 +84,7 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<<<<<<< HEAD
 <td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Add a new pet to the store"</td>
 <td><div><pre>java.lang.IllegalArgumentException: Test name must not be null or empty
 	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
@@ -793,6 +802,99 @@ function toggleAllBoxes() {
 </pre></div></td>
 <td>1</td>
 <td>runner.testRunner@7c1e2a9e</td></tr>
+=======
+<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check admin able to delete Order by ID", "Delete Purchase Order by Id"</td>
+<td><div><pre>java.lang.AssertionError: Status code mismatch expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at stepDefinitions.DeleteOrderByIdSteps.admin_receives_ok_with_order_id_details(DeleteOrderByIdSteps.java:55)
+	at ✽.Admin receives 200 ok with order id details(file:///C:/Users/resmy/eclipse-workspace/PetStore_RestAssured_JsonData/src/test/resources/features/store/DeleteOrderById.feature:9)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1546957042", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1546957042'><pre>java.lang.AssertionError: Status code mismatch expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at stepDefinitions.DeleteOrderByIdSteps.admin_receives_ok_with_order_id_details(DeleteOrderByIdSteps.java:55)
+	at ✽.Admin receives 200 ok with order id details(file:///C:/Users/resmy/eclipse-workspace/PetStore_RestAssured_JsonData/src/test/resources/features/store/DeleteOrderById.feature:9)
+</pre></div></td>
+<td>0</td>
+<td>runner.testRunner@6f45df59</td></tr>
+<tr>
+<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check admin able to retrieve Order by ID", "Find Purchase Order by Id"</td>
+<td><div><pre>java.lang.AssertionError: Status code mismatch expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at stepDefinitions.GetOrderByIdSteps.admin_receives_ok_with_details_of_the_order_id(GetOrderByIdSteps.java:55)
+	at ✽.Admin receives 200 ok with details of the order id(file:///C:/Users/resmy/eclipse-workspace/PetStore_RestAssured_JsonData/src/test/resources/features/store/GetOrderById.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1148535790", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1148535790'><pre>java.lang.AssertionError: Status code mismatch expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at stepDefinitions.GetOrderByIdSteps.admin_receives_ok_with_details_of_the_order_id(GetOrderByIdSteps.java:55)
+	at ✽.Admin receives 200 ok with details of the order id(file:///C:/Users/resmy/eclipse-workspace/PetStore_RestAssured_JsonData/src/test/resources/features/store/GetOrderById.feature:8)
+</pre></div></td>
+<td>0</td>
+<td>runner.testRunner@6f45df59</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully add a new pet with valid data", "Add a new pet to the store"</td>
+<td></td>
+<td>0</td>
+<td>runner.testRunner@6f45df59</td></tr>
+<tr>
+<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully Place an Order for the pet with valid data", "Place an Order for purchasing the Pet"</td>
+<td></td>
+<td>0</td>
+<td>runner.testRunner@6f45df59</td></tr>
+<tr>
+<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully retrieve the pet details by pet id", "Get Pet by Id"</td>
+<td></td>
+<td>1</td>
+<td>runner.testRunner@6f45df59</td></tr>
+<tr>
+<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Inventory is fetched successfully", "Returns Pet Inventories by Status"</td>
+<td></td>
+<td>0</td>
+<td>runner.testRunner@6f45df59</td></tr>
+<tr>
+<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully Place an Order for the pet with valid data", "Place an Order for purchasing the Pet"</td>
+<td></td>
+<td>0</td>
+<td>runner.testRunner@6f45df59</td></tr>
+<tr>
+<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully add a new pet with valid data", "Add a new pet to the store"</td>
+<td></td>
+<td>0</td>
+<td>runner.testRunner@6f45df59</td></tr>
+<tr>
+<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully delete the pet details by pet id", "Delete Pet by Id"</td>
+<td></td>
+<td>0</td>
+<td>runner.testRunner@6f45df59</td></tr>
+>>>>>>> 9dccecfb8fda19ebe7412b7ab29bfec4bb93e3c1
 </table><p>
 </body>
 </html>
