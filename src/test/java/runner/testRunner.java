@@ -1,13 +1,7 @@
 package runner;
 
-import org.testng.annotations.BeforeClass;
-
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
-import testDataWrapper.TestCasesWrapper;
-import utilities.JSONDataReader;
-import utilities.LoggerLoad;
-import utilities.configReader;
 
 @CucumberOptions(
 
@@ -29,21 +23,6 @@ import utilities.configReader;
 	    glue = {"stepDefinitions","hooks"}
 	)
 public class testRunner extends AbstractTestNGCucumberTests {
-	 public static String baseUrl;
-	 public static TestCasesWrapper allTestData;
 	
-	
-	@BeforeClass
-	public void globalSetup() {
-
-	    baseUrl = configReader.getProperty("baseURL");
-	    System.out.println("Base URL: " + baseUrl);
-
-	    allTestData = JSONDataReader.readAllModules(
-	        "src/test/resources/testData/jsonData.json"
-	    );
-
-	    LoggerLoad.info("Global setup completed");
-	}
 }
 
