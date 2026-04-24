@@ -33,7 +33,7 @@ public class AddNewPetSteps {
                 .baseUri(Hooks.baseUrl)
                 .header("Content-Type", "application/json");
 
-        //Hooks.request = request; // You should set it here so other step classes can use it
+        Hooks.request = request; // You should set it here so other step classes can use it
 	}
 
 	@When("Admin sends a POST request with valid data with {string}")

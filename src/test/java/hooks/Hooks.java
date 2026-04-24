@@ -4,10 +4,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import io.cucumber.java.Before;
-<<<<<<< HEAD
-=======
-import io.cucumber.java.BeforeAll;
->>>>>>> 9dccecfb8fda19ebe7412b7ab29bfec4bb93e3c1
 import io.restassured.specification.RequestSpecification;
 import testDataWrapper.TestCasesWrapper;
 import utilities.JSONDataReader;
@@ -23,16 +19,16 @@ public class Hooks {
     public static RequestSpecification request;
   
 
-<<<<<<< HEAD
     @Before()
     public void setup() {
-=======
-    @BeforeAll
-    public static void setup() {
->>>>>>> 9dccecfb8fda19ebe7412b7ab29bfec4bb93e3c1
         // Load base URL from config
     	System.out.println("Printing Base Url" );
         baseUrl = configReader.getProperty("baseURL");
+        
+        // Load all test data from JSON
+        allTestData = JSONDataReader.readAllModules("src/test/resources/testData/jsonData.json");
+
+        LoggerLoad.info("All test data loaded");
     }
         
 

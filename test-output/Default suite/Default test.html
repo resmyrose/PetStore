@@ -55,19 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<<<<<<< HEAD
-<td>Tests passed/Failed/Skipped:</td><td>0/9/0</td>
-</tr><tr>
-<td>Started on:</td><td>Mon Apr 20 14:03:00 EDT 2026</td>
-</tr>
-<tr><td>Total time:</td><td>7 seconds (7167 ms)</td>
-=======
 <td>Tests passed/Failed/Skipped:</td><td>7/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Apr 20 14:38:54 PDT 2026</td>
+<td>Started on:</td><td>Fri Apr 24 13:06:39 EDT 2026</td>
 </tr>
-<tr><td>Total time:</td><td>7 seconds (7154 ms)</td>
->>>>>>> 9dccecfb8fda19ebe7412b7ab29bfec4bb93e3c1
+<tr><td>Total time:</td><td>11 seconds (11204 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -84,772 +76,53 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<<<<<<< HEAD
-<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Add a new pet to the store"</td>
-<td><div><pre>java.lang.IllegalArgumentException: Test name must not be null or empty
-	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
-	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:97)
-	at com.aventstack.extentreports.ExtentTest.createNode(ExtentTest.java:154)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.createScenarioOutline(ExtentCucumberAdapter.java:374)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleScenarioOutline(ExtentCucumberAdapter.java:353)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleTestCaseStarted(ExtentCucumberAdapter.java:162)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:107)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:104)
-	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
-	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
-	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
-	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62)
-	at io.cucumber.core.runner.TestCase.emitTestCaseStarted(TestCase.java:213)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:74)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace419441460", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace419441460'><pre>java.lang.IllegalArgumentException: Test name must not be null or empty
-	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
-	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:97)
-	at com.aventstack.extentreports.ExtentTest.createNode(ExtentTest.java:154)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.createScenarioOutline(ExtentCucumberAdapter.java:374)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleScenarioOutline(ExtentCucumberAdapter.java:353)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleTestCaseStarted(ExtentCucumberAdapter.java:162)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:107)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:104)
-	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
-	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
-	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
-	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62)
-	at io.cucumber.core.runner.TestCase.emitTestCaseStarted(TestCase.java:213)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:74)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>runner.testRunner@7c1e2a9e</td></tr>
-<tr>
-<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check admin able to retrieve Order by ID", "Find Purchase Order by Id"</td>
-<td><div><pre>java.lang.IllegalArgumentException: Base URI cannot be null
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
-	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
-	at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
-	at stepDefinitions.GetOrderByIdSteps.admin_creates_get_request_for_order_by_id(GetOrderByIdSteps.java:27)
-	at ✽.Admin creates GET request for Order by ID(file:///C:/Users/LaksA/eclipse-workspace/PetStore/src/test/resources/features/store/GetOrderById.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1035394386", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1035394386'><pre>java.lang.IllegalArgumentException: Base URI cannot be null
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
-	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
-	at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
-	at stepDefinitions.GetOrderByIdSteps.admin_creates_get_request_for_order_by_id(GetOrderByIdSteps.java:27)
-	at ✽.Admin creates GET request for Order by ID(file:///C:/Users/LaksA/eclipse-workspace/PetStore/src/test/resources/features/store/GetOrderById.feature:6)
-</pre></div></td>
-<td>0</td>
-<td>runner.testRunner@7c1e2a9e</td></tr>
-<tr>
-<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Place an Order for purchasing the Pet"</td>
-<td><div><pre>java.lang.IllegalArgumentException: Test name must not be null or empty
-	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
-	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:97)
-	at com.aventstack.extentreports.ExtentTest.createNode(ExtentTest.java:154)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.createScenarioOutline(ExtentCucumberAdapter.java:374)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleScenarioOutline(ExtentCucumberAdapter.java:353)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleTestCaseStarted(ExtentCucumberAdapter.java:162)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:107)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:104)
-	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
-	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
-	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
-	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62)
-	at io.cucumber.core.runner.TestCase.emitTestCaseStarted(TestCase.java:213)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:74)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1861536737", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1861536737'><pre>java.lang.IllegalArgumentException: Test name must not be null or empty
-	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
-	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:97)
-	at com.aventstack.extentreports.ExtentTest.createNode(ExtentTest.java:154)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.createScenarioOutline(ExtentCucumberAdapter.java:374)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleScenarioOutline(ExtentCucumberAdapter.java:353)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleTestCaseStarted(ExtentCucumberAdapter.java:162)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:107)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:104)
-	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
-	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
-	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
-	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62)
-	at io.cucumber.core.runner.TestCase.emitTestCaseStarted(TestCase.java:213)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:74)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>runner.testRunner@7c1e2a9e</td></tr>
-<tr>
-<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Delete Purchase Order by Id"</td>
-<td><div><pre>java.lang.IllegalArgumentException: Test name must not be null or empty
-	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
-	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:97)
-	at com.aventstack.extentreports.ExtentTest.createNode(ExtentTest.java:154)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.createScenarioOutline(ExtentCucumberAdapter.java:374)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleScenarioOutline(ExtentCucumberAdapter.java:353)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleTestCaseStarted(ExtentCucumberAdapter.java:162)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:107)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:104)
-	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
-	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
-	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
-	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62)
-	at io.cucumber.core.runner.TestCase.emitTestCaseStarted(TestCase.java:213)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:74)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1276604401", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1276604401'><pre>java.lang.IllegalArgumentException: Test name must not be null or empty
-	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
-	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:97)
-	at com.aventstack.extentreports.ExtentTest.createNode(ExtentTest.java:154)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.createScenarioOutline(ExtentCucumberAdapter.java:374)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleScenarioOutline(ExtentCucumberAdapter.java:353)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleTestCaseStarted(ExtentCucumberAdapter.java:162)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:107)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:104)
-	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
-	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
-	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
-	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62)
-	at io.cucumber.core.runner.TestCase.emitTestCaseStarted(TestCase.java:213)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:74)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>runner.testRunner@7c1e2a9e</td></tr>
-<tr>
-<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Add a new pet to the store"</td>
-<td><div><pre>java.lang.IllegalArgumentException: Test name must not be null or empty
-	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
-	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:97)
-	at com.aventstack.extentreports.ExtentTest.createNode(ExtentTest.java:154)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.createScenarioOutline(ExtentCucumberAdapter.java:374)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleScenarioOutline(ExtentCucumberAdapter.java:353)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleTestCaseStarted(ExtentCucumberAdapter.java:162)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:107)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:104)
-	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
-	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
-	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
-	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62)
-	at io.cucumber.core.runner.TestCase.emitTestCaseStarted(TestCase.java:213)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:74)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1046956206", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1046956206'><pre>java.lang.IllegalArgumentException: Test name must not be null or empty
-	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
-	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:97)
-	at com.aventstack.extentreports.ExtentTest.createNode(ExtentTest.java:154)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.createScenarioOutline(ExtentCucumberAdapter.java:374)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleScenarioOutline(ExtentCucumberAdapter.java:353)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleTestCaseStarted(ExtentCucumberAdapter.java:162)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:107)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:104)
-	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
-	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
-	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
-	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62)
-	at io.cucumber.core.runner.TestCase.emitTestCaseStarted(TestCase.java:213)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:74)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>runner.testRunner@7c1e2a9e</td></tr>
-<tr>
-<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Returns Pet Inventories by Status"</td>
-<td><div><pre>java.lang.IllegalArgumentException: Test name must not be null or empty
-	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
-	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:97)
-	at com.aventstack.extentreports.ExtentTest.createNode(ExtentTest.java:154)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.createScenarioOutline(ExtentCucumberAdapter.java:374)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleScenarioOutline(ExtentCucumberAdapter.java:353)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleTestCaseStarted(ExtentCucumberAdapter.java:162)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:107)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:104)
-	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
-	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
-	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
-	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62)
-	at io.cucumber.core.runner.TestCase.emitTestCaseStarted(TestCase.java:213)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:74)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace109767760", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace109767760'><pre>java.lang.IllegalArgumentException: Test name must not be null or empty
-	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
-	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:97)
-	at com.aventstack.extentreports.ExtentTest.createNode(ExtentTest.java:154)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.createScenarioOutline(ExtentCucumberAdapter.java:374)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleScenarioOutline(ExtentCucumberAdapter.java:353)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleTestCaseStarted(ExtentCucumberAdapter.java:162)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:107)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:104)
-	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
-	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
-	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
-	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62)
-	at io.cucumber.core.runner.TestCase.emitTestCaseStarted(TestCase.java:213)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:74)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>runner.testRunner@7c1e2a9e</td></tr>
-<tr>
-<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully delete the pet details by pet id", "Delete Pet by Id"</td>
-<td><div><pre>java.lang.IllegalArgumentException: Base URI cannot be null
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
-	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
-	at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
-	at stepDefinitions.DeletePetSteps.admin_creates_a_delete_pet_by_id_request(DeletePetSteps.java:26)
-	at ✽.Admin creates a DELETE pet by id request(file:///C:/Users/LaksA/eclipse-workspace/PetStore/src/test/resources/features/pet/deletePet.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2017147552", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2017147552'><pre>java.lang.IllegalArgumentException: Base URI cannot be null
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
-	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
-	at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
-	at stepDefinitions.DeletePetSteps.admin_creates_a_delete_pet_by_id_request(DeletePetSteps.java:26)
-	at ✽.Admin creates a DELETE pet by id request(file:///C:/Users/LaksA/eclipse-workspace/PetStore/src/test/resources/features/pet/deletePet.feature:6)
-</pre></div></td>
-<td>0</td>
-<td>runner.testRunner@7c1e2a9e</td></tr>
-<tr>
-<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Place an Order for purchasing the Pet"</td>
-<td><div><pre>java.lang.IllegalArgumentException: Test name must not be null or empty
-	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
-	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:97)
-	at com.aventstack.extentreports.ExtentTest.createNode(ExtentTest.java:154)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.createScenarioOutline(ExtentCucumberAdapter.java:374)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleScenarioOutline(ExtentCucumberAdapter.java:353)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleTestCaseStarted(ExtentCucumberAdapter.java:162)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:107)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:104)
-	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
-	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
-	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
-	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62)
-	at io.cucumber.core.runner.TestCase.emitTestCaseStarted(TestCase.java:213)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:74)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace732611751", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace732611751'><pre>java.lang.IllegalArgumentException: Test name must not be null or empty
-	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
-	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:97)
-	at com.aventstack.extentreports.ExtentTest.createNode(ExtentTest.java:154)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.createScenarioOutline(ExtentCucumberAdapter.java:374)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleScenarioOutline(ExtentCucumberAdapter.java:353)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.handleTestCaseStarted(ExtentCucumberAdapter.java:162)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:107)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$3.receive(ExtentCucumberAdapter.java:104)
-	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
-	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
-	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
-	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62)
-	at io.cucumber.core.runner.TestCase.emitTestCaseStarted(TestCase.java:213)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:74)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>runner.testRunner@7c1e2a9e</td></tr>
-<tr>
-<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully retrieve the pet details by pet id", "Get Pet by Id"</td>
-<td><div><pre>java.lang.IllegalArgumentException: Base URI cannot be null
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
-	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
-	at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
-	at stepDefinitions.GetPetSteps.admin_creates_a_get_pet_by_id_request(GetPetSteps.java:28)
-	at ✽.Admin creates a GET pet by id request(file:///C:/Users/LaksA/eclipse-workspace/PetStore/src/test/resources/features/pet/GetPet.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1040385133", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1040385133'><pre>java.lang.IllegalArgumentException: Base URI cannot be null
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
-	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
-	at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
-	at stepDefinitions.GetPetSteps.admin_creates_a_get_pet_by_id_request(GetPetSteps.java:28)
-	at ✽.Admin creates a GET pet by id request(file:///C:/Users/LaksA/eclipse-workspace/PetStore/src/test/resources/features/pet/GetPet.feature:6)
-</pre></div></td>
-<td>1</td>
-<td>runner.testRunner@7c1e2a9e</td></tr>
-=======
-<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check admin able to delete Order by ID", "Delete Purchase Order by Id"</td>
-<td><div><pre>java.lang.AssertionError: Status code mismatch expected [200] but found [404]
+<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully add a new pet with valid data", "Add a new pet to the store"</td>
+<td><div><pre>java.lang.AssertionError: Status code mismatch expected [200] but found [405]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:1419)
 	at org.testng.Assert.assertEquals(Assert.java:1383)
-	at stepDefinitions.DeleteOrderByIdSteps.admin_receives_ok_with_order_id_details(DeleteOrderByIdSteps.java:55)
-	at ✽.Admin receives 200 ok with order id details(file:///C:/Users/resmy/eclipse-workspace/PetStore_RestAssured_JsonData/src/test/resources/features/store/DeleteOrderById.feature:9)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1546957042", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1546957042'><pre>java.lang.AssertionError: Status code mismatch expected [200] but found [404]
+	at stepDefinitions.AddNewPetSteps.a_new_pet_is_added_to_the_store_and_admin_receives_response_code(AddNewPetSteps.java:73)
+	at ✽.A new pet is added to the store and admin receives response code 200(file:///C:/Users/LaksA/eclipse-workspace/PetStore/src/test/resources/features/pet/01_addNewPet.feature:10)
+</pre></div><a href='#' onClick='toggleBox("stack-trace385131456", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace385131456'><pre>java.lang.AssertionError: Status code mismatch expected [200] but found [405]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:1419)
 	at org.testng.Assert.assertEquals(Assert.java:1383)
-	at stepDefinitions.DeleteOrderByIdSteps.admin_receives_ok_with_order_id_details(DeleteOrderByIdSteps.java:55)
-	at ✽.Admin receives 200 ok with order id details(file:///C:/Users/resmy/eclipse-workspace/PetStore_RestAssured_JsonData/src/test/resources/features/store/DeleteOrderById.feature:9)
+	at stepDefinitions.AddNewPetSteps.a_new_pet_is_added_to_the_store_and_admin_receives_response_code(AddNewPetSteps.java:73)
+	at ✽.A new pet is added to the store and admin receives response code 200(file:///C:/Users/LaksA/eclipse-workspace/PetStore/src/test/resources/features/pet/01_addNewPet.feature:10)
 </pre></div></td>
-<td>0</td>
-<td>runner.testRunner@6f45df59</td></tr>
+<td>3</td>
+<td>runner.testRunner@3f56875e</td></tr>
 <tr>
-<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check admin able to retrieve Order by ID", "Find Purchase Order by Id"</td>
-<td><div><pre>java.lang.AssertionError: Status code mismatch expected [200] but found [404]
+<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully add a new pet with valid data", "Add a new pet to the store"</td>
+<td><div><pre>java.lang.AssertionError: Status code mismatch expected [200] but found [405]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:1419)
 	at org.testng.Assert.assertEquals(Assert.java:1383)
-	at stepDefinitions.GetOrderByIdSteps.admin_receives_ok_with_details_of_the_order_id(GetOrderByIdSteps.java:55)
-	at ✽.Admin receives 200 ok with details of the order id(file:///C:/Users/resmy/eclipse-workspace/PetStore_RestAssured_JsonData/src/test/resources/features/store/GetOrderById.feature:8)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1148535790", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1148535790'><pre>java.lang.AssertionError: Status code mismatch expected [200] but found [404]
+	at stepDefinitions.AddNewPetSteps.a_new_pet_is_added_to_the_store_and_admin_receives_response_code(AddNewPetSteps.java:73)
+	at ✽.A new pet is added to the store and admin receives response code 200(file:///C:/Users/LaksA/eclipse-workspace/PetStore/src/test/resources/features/pet/01_addNewPet.feature:10)
+</pre></div><a href='#' onClick='toggleBox("stack-trace284746450", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace284746450'><pre>java.lang.AssertionError: Status code mismatch expected [200] but found [405]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:1419)
 	at org.testng.Assert.assertEquals(Assert.java:1383)
-	at stepDefinitions.GetOrderByIdSteps.admin_receives_ok_with_details_of_the_order_id(GetOrderByIdSteps.java:55)
-	at ✽.Admin receives 200 ok with details of the order id(file:///C:/Users/resmy/eclipse-workspace/PetStore_RestAssured_JsonData/src/test/resources/features/store/GetOrderById.feature:8)
+	at stepDefinitions.AddNewPetSteps.a_new_pet_is_added_to_the_store_and_admin_receives_response_code(AddNewPetSteps.java:73)
+	at ✽.A new pet is added to the store and admin receives response code 200(file:///C:/Users/LaksA/eclipse-workspace/PetStore/src/test/resources/features/pet/01_addNewPet.feature:10)
 </pre></div></td>
 <td>0</td>
-<td>runner.testRunner@6f45df59</td></tr>
+<td>runner.testRunner@3f56875e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -860,41 +133,40 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully add a new pet with valid data", "Add a new pet to the store"</td>
-<td></td>
-<td>0</td>
-<td>runner.testRunner@6f45df59</td></tr>
-<tr>
-<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully Place an Order for the pet with valid data", "Place an Order for purchasing the Pet"</td>
-<td></td>
-<td>0</td>
-<td>runner.testRunner@6f45df59</td></tr>
-<tr>
-<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully retrieve the pet details by pet id", "Get Pet by Id"</td>
-<td></td>
-<td>1</td>
-<td>runner.testRunner@6f45df59</td></tr>
-<tr>
 <td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Inventory is fetched successfully", "Returns Pet Inventories by Status"</td>
 <td></td>
 <td>0</td>
-<td>runner.testRunner@6f45df59</td></tr>
+<td>runner.testRunner@3f56875e</td></tr>
 <tr>
 <td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully Place an Order for the pet with valid data", "Place an Order for purchasing the Pet"</td>
 <td></td>
 <td>0</td>
-<td>runner.testRunner@6f45df59</td></tr>
+<td>runner.testRunner@3f56875e</td></tr>
 <tr>
-<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully add a new pet with valid data", "Add a new pet to the store"</td>
+<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully retrieve the pet details by pet id", "Get Pet by Id"</td>
 <td></td>
 <td>0</td>
-<td>runner.testRunner@6f45df59</td></tr>
+<td>runner.testRunner@3f56875e</td></tr>
+<tr>
+<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check admin able to retrieve Order by ID", "Find Purchase Order by Id"</td>
+<td></td>
+<td>0</td>
+<td>runner.testRunner@3f56875e</td></tr>
 <tr>
 <td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully delete the pet details by pet id", "Delete Pet by Id"</td>
 <td></td>
 <td>0</td>
-<td>runner.testRunner@6f45df59</td></tr>
->>>>>>> 9dccecfb8fda19ebe7412b7ab29bfec4bb93e3c1
+<td>runner.testRunner@3f56875e</td></tr>
+<tr>
+<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check admin able to delete Order by ID", "Delete Purchase Order by Id"</td>
+<td></td>
+<td>0</td>
+<td>runner.testRunner@3f56875e</td></tr>
+<tr>
+<td title='runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully Place an Order for the pet with valid data", "Place an Order for purchasing the Pet"</td>
+<td></td>
+<td>0</td>
+<td>runner.testRunner@3f56875e</td></tr>
 </table><p>
 </body>
 </html>
