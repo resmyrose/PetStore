@@ -47,8 +47,8 @@ public class AddNewPetSteps {
 	    addNewPetInputData = addNewPetTestCase.getNewPetInputData();
 	    LoggerLoad.info("Loaded Add New Pet Test Case: " + addNewPetInputData);
 
-        //request = Hooks.request.body(addNewPetInputData);
-        //Hooks.request.log().all();
+        Hooks.request = Hooks.request.body(addNewPetInputData);
+        Hooks.request.log().all();
         LoggerLoad.info("Request with body prepared.");
 
 

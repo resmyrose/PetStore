@@ -2609,3 +2609,341 @@ Resolved Endpoint: /store/order/3
 Delete Order by Id Test Case: Delete Purchase Order by Id
 Endpoint: /store/order/{orderId}
 Resolved Endpoint: /store/order/3
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@482f7af0
+Request with body prepared.
+Endpoint: pet
+Status Code: 405
+Response Body: {
+    "code": 405,
+    "type": "unknown",
+    "message": "no data"
+}
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@2676d96a
+Request with body prepared.
+Endpoint: pet
+Status Code: 405
+Response Body: {
+    "code": 405,
+    "type": "unknown",
+    "message": "no data"
+}
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Loaded Pet Test Case: Delete Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Loaded Place order Pet Test Case: Place Order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@7286827b
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Loaded Place order Pet Test Case: Place Order for Pets with valid data2
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@57515944
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Status Code: 200
+Response Body: {
+    "totvs": 5,
+    "sold": 86,
+    "aviable": 2,
+    "string": 482,
+    "unavailable": 1,
+    "TEST": 1,
+    "pending": 6,
+    "available": 378,
+    "oioioi": 1,
+    "soldout": 1,
+    "peric": 7
+}
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Delete Order by Id Test Case: Delete Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@1edfedf1
+Request with body prepared.
+Endpoint: pet
+Status Code: 405
+Response Body: {
+    "code": 405,
+    "type": "unknown",
+    "message": "no data"
+}
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@2676d96a
+Request with body prepared.
+Endpoint: pet
+Status Code: 405
+Response Body: {
+    "code": 405,
+    "type": "unknown",
+    "message": "no data"
+}
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Loaded Pet Test Case: Delete Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Loaded Place order Pet Test Case: Place Order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@71285693
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Loaded Place order Pet Test Case: Place Order for Pets with valid data2
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@1ea96ff2
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Status Code: 200
+Response Body: {
+    "totvs": 5,
+    "sold": 91,
+    "aviable": 2,
+    "string": 481,
+    "unavailable": 1,
+    "TEST": 1,
+    "pending": 4,
+    "available": 375,
+    "oioioi": 1,
+    "soldout": 1,
+    "peric": 7
+}
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Delete Order by Id Test Case: Delete Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@482f7af0
+Request with body prepared.
+Endpoint: pet
+Status Code: 405
+Response Body: {
+    "code": 405,
+    "type": "unknown",
+    "message": "no data"
+}
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@4d664323
+Request with body prepared.
+Endpoint: pet
+Status Code: 405
+Response Body: {
+    "code": 405,
+    "type": "unknown",
+    "message": "no data"
+}
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Loaded Pet Test Case: Delete Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/338
+Status Code: 200
+Loaded Place order Pet Test Case: Place Order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@71285693
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Loaded Place order Pet Test Case: Place Order for Pets with valid data2
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@57515944
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Status Code: 200
+Response Body: {
+    "totvs": 5,
+    "sold": 89,
+    "aviable": 2,
+    "string": 481,
+    "unavailable": 1,
+    "TEST": 1,
+    "pending": 4,
+    "available": 378,
+    "oioioi": 1,
+    "soldout": 1,
+    "peric": 7
+}
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Delete Order by Id Test Case: Delete Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+All test data loaded
+Loaded Add a Pet Test Case: Add new pet to the store with valid data
+Loaded Add New Pet Test Case: pojo.AddNewPet@1edfedf1
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "category": {
+        "id": 330,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 3,
+            "name": "Mochi3"
+        }
+    ],
+    "status": "available"
+}
+Loaded Add a Pet Test Case: Add new pet to the store with valid data2
+Loaded Add New Pet Test Case: pojo.AddNewPet@3f9e8af5
+Request with body prepared.
+Endpoint: pet
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "category": {
+        "id": 331,
+        "name": "Dog"
+    },
+    "name": "Golden Retriever",
+    "photoUrls": [
+        "https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/"
+    ],
+    "tags": [
+        {
+            "id": 4,
+            "name": "Cocao"
+        }
+    ],
+    "status": "available"
+}
+Loaded Pet Test Case: Get Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/339
+Status Code: 200
+Loaded Pet Test Case: Delete Pet Details with valid Pet Id
+Reusing request with Bearer Token from background setup.
+Resolved Endpoint: pet/339
+Status Code: 200
+Loaded Place order Pet Test Case: Place Order for Pets with valid data
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@683fac7e
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 338,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Loaded Place order Pet Test Case: Place Order for Pets with valid data2
+Loaded Place Order Pet Test Case: pojo.PlaceOrderPet@578d5d02
+Request with body prepared.
+Endpoint: /store/order
+Status Code: 200
+Response Body: {
+    "id": 339,
+    "petId": 330,
+    "quantity": 1,
+    "shipDate": "2026-03-09T18:48:52.473+0000",
+    "status": "placed",
+    "complete": true
+}
+Pet Test Case: Returns Pet Inventories by Status
+Endpoint: /store/inventory
+Status Code: 200
+Response Body: {
+    "totvs": 5,
+    "sold": 96,
+    "aviable": 2,
+    "string": 472,
+    "sold ": 1,
+    "NOT available": 1,
+    "unavailable": 1,
+    "ggg": 1,
+    "pending": 4,
+    "available": 377,
+    "weisskeiner1": 1,
+    "oioioi": 1,
+    "soldout": 1,
+    "peric": 7,
+    "TEST": 1
+}
+Order by Id Test Case: Find Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
+Delete Order by Id Test Case: Delete Purchase Order by Id
+Endpoint: /store/order/{orderId}
+Resolved Endpoint: /store/order/3
