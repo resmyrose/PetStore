@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="9" passed="5" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
   <suite started-at="2026-04-24T14:37:00 EDT" name="Default suite" finished-at="2026-04-24T14:37:10 EDT" duration-ms="9657">
+=======
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-21T10:22:57 PDT" name="Default suite" finished-at="2026-04-21T10:23:05 PDT" duration-ms="8323">
+>>>>>>> origin/Resmy
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@6ab778a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
+<<<<<<< HEAD
     <test started-at="2026-04-24T14:37:00 EDT" name="Default test" finished-at="2026-04-24T14:37:10 EDT" duration-ms="9657">
       <class name="runner.testRunner">
         <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.testRunner@6ab778a]" started-at="2026-04-24T14:37:00 EDT" name="setUpClass" finished-at="2026-04-24T14:37:03 EDT" duration-ms="2346" status="PASS">
@@ -15,13 +23,26 @@
             <param index="0">
               <value>
                 <![CDATA[org.testng.TestRunner@2210af14]]>
+=======
+    <test started-at="2026-04-21T10:22:57 PDT" name="Default test" finished-at="2026-04-21T10:23:05 PDT" duration-ms="8323">
+      <class name="runner.testRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.testRunner@6f45df59]" started-at="2026-04-21T10:22:57 PDT" name="setUpClass" finished-at="2026-04-21T10:22:58 PDT" duration-ms="1524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5643052d]]>
+>>>>>>> origin/Resmy
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@6ab778a]" started-at="2026-04-24T14:37:03 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-24T14:37:05 EDT" duration-ms="2781" status="FAIL">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@6f45df59]" started-at="2026-04-21T10:22:58 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-21T10:23:00 PDT" duration-ms="2376" status="PASS">
+>>>>>>> origin/Resmy
           <params>
             <param index="0">
               <value>
@@ -34,6 +55,7 @@
               </value>
             </param>
           </params>
+<<<<<<< HEAD
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Status code mismatch expected [200] but found [405]]]>
@@ -55,6 +77,12 @@ at ✽.A new pet is added to the store and admin receives response code 200(file
           </reporter-output>
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@6ab778a]" started-at="2026-04-24T14:37:05 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-24T14:37:06 EDT" duration-ms="236" status="FAIL">
+=======
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@6f45df59]" started-at="2026-04-21T10:23:00 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-21T10:23:01 PDT" duration-ms="378" status="PASS">
+>>>>>>> origin/Resmy
           <params>
             <param index="0">
               <value>
@@ -67,6 +95,7 @@ at ✽.A new pet is added to the store and admin receives response code 200(file
               </value>
             </param>
           </params>
+<<<<<<< HEAD
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Status code mismatch expected [200] but found [405]]]>
@@ -88,6 +117,12 @@ at ✽.A new pet is added to the store and admin receives response code 200(file
           </reporter-output>
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@6ab778a]" started-at="2026-04-24T14:37:06 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-24T14:37:06 EDT" duration-ms="242" status="PASS">
+=======
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@6f45df59]" started-at="2026-04-21T10:23:01 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-21T10:23:01 PDT" duration-ms="377" status="PASS">
+>>>>>>> origin/Resmy
           <params>
             <param index="0">
               <value>
@@ -103,7 +138,11 @@ at ✽.A new pet is added to the store and admin receives response code 200(file
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@6ab778a]" started-at="2026-04-24T14:37:06 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-24T14:37:06 EDT" duration-ms="213" status="PASS">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@6f45df59]" started-at="2026-04-21T10:23:01 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-21T10:23:02 PDT" duration-ms="358" status="PASS">
+>>>>>>> origin/Resmy
           <params>
             <param index="0">
               <value>
@@ -119,7 +158,11 @@ at ✽.A new pet is added to the store and admin receives response code 200(file
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@6ab778a]" started-at="2026-04-24T14:37:06 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-24T14:37:07 EDT" duration-ms="386" status="PASS">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@6f45df59]" started-at="2026-04-21T10:23:02 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-21T10:23:02 PDT" duration-ms="354" status="PASS">
+>>>>>>> origin/Resmy
           <params>
             <param index="0">
               <value>
@@ -135,7 +178,11 @@ at ✽.A new pet is added to the store and admin receives response code 200(file
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@6ab778a]" started-at="2026-04-24T14:37:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-24T14:37:07 EDT" duration-ms="223" status="PASS">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@6f45df59]" started-at="2026-04-21T10:23:02 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-21T10:23:02 PDT" duration-ms="376" status="PASS">
+>>>>>>> origin/Resmy
           <params>
             <param index="0">
               <value>
@@ -151,7 +198,11 @@ at ✽.A new pet is added to the store and admin receives response code 200(file
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@6ab778a]" started-at="2026-04-24T14:37:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-24T14:37:07 EDT" duration-ms="210" status="PASS">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@6f45df59]" started-at="2026-04-21T10:23:02 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-21T10:23:03 PDT" duration-ms="359" status="PASS">
+>>>>>>> origin/Resmy
           <params>
             <param index="0">
               <value>
@@ -167,7 +218,11 @@ at ✽.A new pet is added to the store and admin receives response code 200(file
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@6ab778a]" started-at="2026-04-24T14:37:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-24T14:37:07 EDT" duration-ms="204" status="FAIL">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@6f45df59]" started-at="2026-04-21T10:23:03 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-21T10:23:03 PDT" duration-ms="361" status="PASS">
+>>>>>>> origin/Resmy
           <params>
             <param index="0">
               <value>
@@ -180,6 +235,7 @@ at ✽.A new pet is added to the store and admin receives response code 200(file
               </value>
             </param>
           </params>
+<<<<<<< HEAD
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Status code mismatch expected [200] but found [404]]]>
@@ -201,6 +257,12 @@ at ✽.Admin receives 200 ok with details of the order id(file:///C:/Users/LaksA
           </reporter-output>
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@6ab778a]" started-at="2026-04-24T14:37:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-24T14:37:07 EDT" duration-ms="216" status="FAIL">
+=======
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@6f45df59]" started-at="2026-04-21T10:23:03 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-21T10:23:03 PDT" duration-ms="359" status="PASS">
+>>>>>>> origin/Resmy
           <params>
             <param index="0">
               <value>
@@ -233,7 +295,11 @@ at ✽.Admin receives 200 ok with order id details(file:///C:/Users/LaksA/eclips
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.testRunner@6ab778a]" started-at="2026-04-24T14:37:07 EDT" name="tearDownClass" finished-at="2026-04-24T14:37:10 EDT" duration-ms="2516" status="PASS">
+=======
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.testRunner@6f45df59]" started-at="2026-04-21T10:23:03 PDT" name="tearDownClass" finished-at="2026-04-21T10:23:05 PDT" duration-ms="1443" status="PASS">
+>>>>>>> origin/Resmy
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
